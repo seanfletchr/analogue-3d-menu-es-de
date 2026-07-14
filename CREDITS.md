@@ -1,8 +1,7 @@
 # Credits
 
-**Analogue 3D OS Menu** — an ES-DE port of Analogue's OS UI aesthetic, by Sean Fletcher.
+**Analogue 3D OS Menu** is an ES-DE port of Analogue's 3D OS interface, by Sean Fletcher.
 
-This theme is translated from the Analogue 3D OS.
 Analogue is not affiliated with this theme and does not endorse it.
 
 ## Fonts
@@ -16,16 +15,16 @@ Fusion Pixel Font is an open-source Pan-CJK pixel font fused from several source
 fonts. The licenses for those sources are bundled in
 [`resources/fonts/LICENSE/`](resources/fonts/LICENSE):
 
-- **Ark Pixel** — TakWolf — SIL OFL 1.1 (`ark-pixel.txt`)
-- **Cubic 11** — SIL OFL 1.1 (`cubic-11.txt`)
-- **Galmuri** — Lee Minseo — SIL OFL 1.1 (`galmuri.txt`)
+- **Ark Pixel**: TakWolf, SIL OFL 1.1 (`ark-pixel.txt`)
+- **Cubic 11**: SIL OFL 1.1 (`cubic-11.txt`)
+- **Galmuri**: Lee Minseo, SIL OFL 1.1 (`galmuri.txt`)
 
 ## Artwork & Assets
 
-- **Isometric console images** — most are the work of Reddit user
+- **Isometric console images**: most are the work of Reddit user
   **u/spiritualized1997**, with additional assets by **u/kiefeater** and
   **Sean Fletcher**.
-- **Game cartridge icons** — based on Analogue's N64 cartridge design, with
+- **Game cartridge icons**: based on Analogue's N64 cartridge design, with
   additional assets drawn by **Sean Fletcher**.
 
 ## System Metadata
