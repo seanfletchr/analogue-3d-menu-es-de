@@ -8,10 +8,19 @@ An [ES-DE](https://es-de.org/) theme that translates the look and feel of
 
 ## Screenshots
 <img width="2032" height="1224" alt="System View | No Background" src="https://github.com/user-attachments/assets/826614fd-241e-4771-86f0-b82d676dddba" />
+System View | No Background
+
 <img width="2032" height="1224" alt="Carousel (Carts) | No Background" src="https://github.com/user-attachments/assets/6d1556bd-0db3-43c7-990e-acc57227be13" />
+Carousel (Carts) | No Background
+
 <img width="2032" height="1224" alt="Grid (Small) | No Background" src="https://github.com/user-attachments/assets/bbe4344d-50ab-4ed3-9cc8-b3ab25445c22" />
+Grid (Small) | No Background
+
 <img width="2032" height="1224" alt="Gallery (Fit) | Titlescreen (Video)" src="https://github.com/user-attachments/assets/284ec073-df12-472e-9731-ac92177a73cb" />
+Gallery (Fit) | Titlescreen (Video)
+
 <img width="2032" height="1224" alt="List | No Background" src="https://github.com/user-attachments/assets/29cdfb63-6d0c-4c38-99a8-4645f2c2266d" />
+List | No Background
 
 
 ## Requirements
