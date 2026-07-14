@@ -1,0 +1,71 @@
+<theme>
+
+    <!-- === COLOR SCHEMES: background media type × static/video === -->
+
+    <colorScheme name="noBackground">
+        <variables>
+            <bgMediaType>screenshot, titlescreen, fanart</bgMediaType>
+            <bgMediaStaticVisible>false</bgMediaStaticVisible>
+            <bgMediaVideoVisible>false</bgMediaVideoVisible>
+            <colorOverlay>00000000</colorOverlay>
+        </variables>
+    </colorScheme>
+
+    <!-- Static schemes -->
+
+    <colorScheme name="screenshotStatic">
+        <variables>
+            <bgMediaType>screenshot, titlescreen, fanart</bgMediaType>
+            <bgMediaStaticVisible>true</bgMediaStaticVisible>
+            <bgMediaVideoVisible>false</bgMediaVideoVisible>
+        </variables>
+    </colorScheme>
+    <colorScheme name="titleStatic">
+        <variables>
+            <bgMediaType>titlescreen, screenshot, fanart</bgMediaType>
+            <bgMediaStaticVisible>true</bgMediaStaticVisible>
+            <bgMediaVideoVisible>false</bgMediaVideoVisible>
+        </variables>
+    </colorScheme>
+    <colorScheme name="fanartStatic">
+        <variables>
+            <bgMediaType>fanart, screenshot, titlescreen</bgMediaType>
+            <bgMediaStaticVisible>true</bgMediaStaticVisible>
+            <bgMediaVideoVisible>false</bgMediaVideoVisible>
+        </variables>
+    </colorScheme>
+
+    <!-- Video schemes -->
+
+    <colorScheme name="screenshotVideo">
+        <variables>
+            <bgMediaType>screenshot, titlescreen, fanart</bgMediaType>
+            <bgMediaStaticVisible>false</bgMediaStaticVisible>
+            <bgMediaVideoVisible>true</bgMediaVideoVisible>
+        </variables>
+    </colorScheme>
+    <colorScheme name="titleVideo">
+        <variables>
+            <bgMediaType>titlescreen, screenshot, fanart</bgMediaType>
+            <bgMediaStaticVisible>false</bgMediaStaticVisible>
+            <bgMediaVideoVisible>true</bgMediaVideoVisible>
+        </variables>
+    </colorScheme>
+    <colorScheme name="fanartVideo">
+        <variables>
+            <bgMediaType>fanart, screenshot, titlescreen</bgMediaType>
+            <bgMediaStaticVisible>false</bgMediaStaticVisible>
+            <bgMediaVideoVisible>true</bgMediaVideoVisible>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="custom">
+        <variables>
+            <bgMediaType>screenshot, titlescreen, fanart</bgMediaType>
+            <bgMediaCustomVisible>true</bgMediaCustomVisible>
+            <bgMediaStaticVisible>true</bgMediaStaticVisible>
+            <bgMediaVideoVisible>false</bgMediaVideoVisible>
+        </variables>
+    </colorScheme>
+
+</theme>

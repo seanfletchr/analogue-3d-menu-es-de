@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<theme>
+
+    <variant name="all">
+
+        <transitions>slideSystemGamelist</transitions>
+
+        <view name="system">
+
+            <image name="base">
+                <stationary>betweenViews</stationary>
+            </image>
+
+            <image name="help-bg">
+                <stationary>betweenViews</stationary>
+            </image>
+
+        </view>
+
+        <view name="gamelist">
+
+            <image name="base">
+                <renderDuringTransitions>false</renderDuringTransitions>
+            </image>
+
+            <image name="help-bg">
+                <stationary>betweenViews</stationary>
+            </image>
+
+        </view>
+
+    </variant>
+
+</theme>

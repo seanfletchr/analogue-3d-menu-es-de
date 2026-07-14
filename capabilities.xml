@@ -1,0 +1,105 @@
+<themeCapabilities>
+    <themeName>Analogue 3D OS Menu</themeName>
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>8:7</aspectRatio>
+    <aspectRatio>1:1</aspectRatio>
+    <aspectRatio>3:2</aspectRatio>
+    <fontSize>small</fontSize>
+    <fontSize>medium</fontSize>
+    <fontSize>large</fontSize>
+    <variant name="carousel-carts">
+        <label>Carousel (Carts)</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="carousel-covers">
+        <label>Carousel (Covers)</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="carousel-caps">
+        <label>Carousel (Caps)</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="textlist">
+        <label>List</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="grid">
+        <label>Grid (Large)</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="grid5">
+        <label>Grid (Small)</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="gallery-fit">
+        <label>Gallery (Fit)</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="gallery-fill">
+        <label>Gallery (Fill)</label>
+        <selectable>true</selectable>
+    </variant>
+    <colorScheme name="noBackground">
+        <label>No Background</label>
+    </colorScheme>
+    <colorScheme name="screenshotStatic">
+        <label>Screenshot (Static)</label>
+    </colorScheme>
+    <colorScheme name="titleStatic">
+        <label>Title Screen (Static)</label>
+    </colorScheme>
+    <colorScheme name="fanartStatic">
+        <label>Fanart (Static)</label>
+    </colorScheme>
+    <colorScheme name="screenshotVideo">
+        <label>Screenshot (Video)</label>
+    </colorScheme>
+    <colorScheme name="titleVideo">
+        <label>Title Screen (Video)</label>
+    </colorScheme>
+    <colorScheme name="fanartVideo">
+        <label>Fanart (Video)</label>
+    </colorScheme>
+    <colorScheme name="custom">
+        <label>Custom</label>
+    </colorScheme>
+    <transitions name="slideSystemGamelist">
+        <selectable>false</selectable>
+        <startupToSystem>fade</startupToSystem>
+        <startupToGamelist>fade</startupToGamelist>
+        <systemToSystem>instant</systemToSystem>
+        <systemToGamelist>slide</systemToGamelist>
+        <gamelistToSystem>slide</gamelistToSystem>
+        <gamelistToGamelist>instant</gamelistToGamelist>
+    </transitions>
+    <suppressTransitionProfiles>
+        <entry>builtin-slide</entry>
+        <entry>builtin-fade</entry>
+    </suppressTransitionProfiles>
+    <language>en_US</language>
+    <language>bs_BA</language>
+    <language>ca_ES</language>
+    <!-- Czech requires ES-DE 3.5+; commented out for 3.4 compatibility. Re-enable
+         together with the cs_CZ block in languages.xml. -->
+    <!-- <language>cs_CZ</language> -->
+    <language>de_DE</language>
+    <language>es_ES</language>
+    <language>fr_FR</language>
+    <language>hr_HR</language>
+    <language>it_IT</language>
+    <language>nl_NL</language>
+    <language>pl_PL</language>
+    <language>pt_BR</language>
+    <language>pt_PT</language>
+    <language>ro_RO</language>
+    <language>sv_SE</language>
+    <language>ja_JP</language>
+    <language>ko_KR</language>
+    <language>zh_CN</language>
+    <language>zh_TW</language>
+    <language>ar_SA</language>
+    <language>ru_RU</language>
+    <language>sr_RS</language>
+</themeCapabilities>

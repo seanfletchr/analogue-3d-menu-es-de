@@ -1,0 +1,6 @@
+<svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Folder_icon.svg rotated 90° CCW; displayed upright via rotation=90 on the badges element -->
+<g transform="translate(0 9) rotate(-90)">
+<path d="M8 7H9V2H5V1H4V0H1V1H0V7H1V8H8V7ZM9 1V0H5V1H9Z" fill="white"/>
+</g>
+</svg>

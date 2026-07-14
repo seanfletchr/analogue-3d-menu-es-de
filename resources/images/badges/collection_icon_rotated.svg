@@ -1,0 +1,6 @@
+<svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- collection_icon.svg rotated 90° CCW; displayed upright via rotation=90 on the badges element -->
+<g transform="translate(0 9) rotate(-90)">
+<path d="M4 6H5V5H6V4H7V3H8V2H7V1H6V2H5V3H4V4H3V3H2V4H1V5H2V6H3V7H4V6Z" fill="white"/>
+</g>
+</svg>

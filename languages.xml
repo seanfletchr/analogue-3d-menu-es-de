@@ -1,0 +1,431 @@
+<theme>
+
+    <language name="en_US">
+        <variables>
+            <labelHome>Home</labelHome>
+            <labelManufacturer>Manufacturer</labelManufacturer>
+            <labelRelease>Release</labelRelease>
+            <labelCollection>Collection</labelCollection>
+            <labelRating>Rating</labelRating>
+            <labelInformation>Information</labelInformation>
+            <labelGenre>Genre</labelGenre>
+            <labelDevelopers>Developers</labelDevelopers>
+            <labelPublishers>Publishers</labelPublishers>
+            <labelLastPlayed>Last Played</labelLastPlayed>
+            <labelPlaytime>Playtime</labelPlaytime>
+            <labelController>Controller</labelController>
+        </variables>
+    </language>
+
+    <language name="ar_SA">
+        <variables>
+            <labelHome>الرئيسية</labelHome>
+            <labelManufacturer>مصنّع</labelManufacturer>
+            <labelRelease>إصدار</labelRelease>
+            <labelCollection>مجموعة</labelCollection>
+            <labelRating>تقييم</labelRating>
+            <labelInformation>معلومات</labelInformation>
+            <labelGenre>النوع</labelGenre>
+            <labelDevelopers>المطورون</labelDevelopers>
+            <labelPublishers>الناشرون</labelPublishers>
+            <labelLastPlayed>آخر لعب</labelLastPlayed>
+            <labelPlaytime>وقت اللعب</labelPlaytime>
+            <labelController>وحدة تحكم</labelController>
+            <!-- ============================================================
+                 RTL LAYOUT (ar_SA) — DISABLED for now.
+                 Notes for when re-enabled: game tiles mirror 0.6812 ± (margin +
+                 n×slot), step 0.1744 (n5→n1 left of selected, p1→p2 right, p3+
+                 off-screen); system tiles 0.637 ± n×0.2347 (slot 0.2347).
+                 ============================================================ -->
+            <!--
+            <textAlign>right</textAlign>
+            <systemNameAlign>right</systemNameAlign>
+            <originXflip>1</originXflip>
+            <metaLabelX>0.9719</metaLabelX>
+            <contentX>0.7359</contentX>
+            <contentXBadge>0.7328</contentXBadge>
+            <metaRatingX>0.73377</metaRatingX>
+            <clockX>0.027</clockX>
+            <clockOriginX>0</clockOriginX>
+            <clockAlign>left</clockAlign>
+            <gamelistSectionTitleX>0.7053</gamelistSectionTitleX>
+            <carouselCardX>0.6812</carouselCardX>
+            <statusBadgesX>0.7568</statusBadgesX>
+            <galleryStatusBadgesX>0.9649</galleryStatusBadgesX>
+            <systemCarouselHOffset>0.137</systemCarouselHOffset>
+            <gameCarouselHOffset>0.1812</gameCarouselHOffset>
+            <carouselTileXn5>0.0068</carouselTileXn5>
+            <carouselTileXn4>0.1318</carouselTileXn4>
+            <carouselTileXn3>0.2568</carouselTileXn3>
+            <carouselTileXn2>0.3818</carouselTileXn2>
+            <carouselTileXn1>0.5068</carouselTileXn1>
+            <carouselTileXp1>0.8556</carouselTileXp1>
+            <carouselTileXp2>0.9806</carouselTileXp2>
+            <carouselTileXp3>1.1056</carouselTileXp3>
+            <carouselTileXp4>1.2306</carouselTileXp4>
+            <carouselTileXp5>1.3556</carouselTileXp5>
+            <systemCarouselCardX>0.637</systemCarouselCardX>
+            <systemCarouselTileXn5>-0.5367</systemCarouselTileXn5>
+            <systemCarouselTileXn4>-0.3019</systemCarouselTileXn4>
+            <systemCarouselTileXn3>-0.0672</systemCarouselTileXn3>
+            <systemCarouselTileXn2>0.1675</systemCarouselTileXn2>
+            <systemCarouselTileXn1>0.4023</systemCarouselTileXn1>
+            <systemCarouselTileXp1>0.8717</systemCarouselTileXp1>
+            <systemCarouselTileXp2>1.1065</systemCarouselTileXp2>
+            <systemCarouselTileXp3>1.3412</systemCarouselTileXp3>
+            <systemCarouselTileXp4>1.5760</systemCarouselTileXp4>
+            <systemCarouselTileXp5>1.8107</systemCarouselTileXp5>
+            <imageFlipH>true</imageFlipH>
+            -->
+        </variables>
+    </language>
+
+    <language name="bs_BA">
+        <variables>
+            <labelHome>Početna</labelHome>
+            <labelManufacturer>Proizvođač</labelManufacturer>
+            <labelRelease>Izdanje</labelRelease>
+            <labelCollection>Kolekcija</labelCollection>
+            <labelRating>Ocjena</labelRating>
+            <labelInformation>Informacije</labelInformation>
+            <labelGenre>Žanr</labelGenre>
+            <labelDevelopers>Programeri</labelDevelopers>
+            <labelPublishers>Izdavači</labelPublishers>
+            <labelLastPlayed>Zadnji put igrano</labelLastPlayed>
+            <labelPlaytime>Vrijeme igranja</labelPlaytime>
+            <labelController>Kontroler</labelController>
+        </variables>
+    </language>
+
+    <language name="ca_ES">
+        <variables>
+            <labelHome>Inici</labelHome>
+            <labelManufacturer>Fabricant</labelManufacturer>
+            <labelRelease>Llançament</labelRelease>
+            <labelCollection>Col·lecció</labelCollection>
+            <labelRating>Valoració</labelRating>
+            <labelInformation>Informació</labelInformation>
+            <labelGenre>Gènere</labelGenre>
+            <labelDevelopers>Desenvolupadors</labelDevelopers>
+            <labelPublishers>Editors</labelPublishers>
+            <labelLastPlayed>Última partida</labelLastPlayed>
+            <labelPlaytime>Temps de joc</labelPlaytime>
+            <labelController>Controlador</labelController>
+        </variables>
+    </language>
+
+    <!-- Czech (cs_CZ) requires ES-DE 3.5+ — a declared-but-unsupported language is a
+         hard parse error on 3.4 and unthemes every system. Commented out for 3.4
+         compatibility; re-enable together with the cs_CZ entry in capabilities.xml.
+    <language name="cs_CZ">
+        <variables>
+            <labelHome>Domů</labelHome>
+            <labelManufacturer>Výrobce</labelManufacturer>
+            <labelRelease>Vydání</labelRelease>
+            <labelCollection>Kolekce</labelCollection>
+            <labelRating>Hodnocení</labelRating>
+            <labelInformation>Informace</labelInformation>
+            <labelGenre>Žánr</labelGenre>
+            <labelDevelopers>Vývojáři</labelDevelopers>
+            <labelPublishers>Vydavatelé</labelPublishers>
+            <labelLastPlayed>Naposledy hrané</labelLastPlayed>
+            <labelPlaytime>Doba hraní</labelPlaytime>
+            <labelController>Ovladač</labelController>
+        </variables>
+    </language>
+    -->
+
+    <language name="de_DE">
+        <variables>
+            <labelHome>Plattformen</labelHome>
+            <labelManufacturer>Hersteller</labelManufacturer>
+            <labelRelease>Erscheinungsjahr</labelRelease>
+            <labelCollection>Sammlung</labelCollection>
+            <labelRating>Bewertung</labelRating>
+            <labelInformation>Informationen</labelInformation>
+            <labelGenre>Genre</labelGenre>
+            <labelDevelopers>Entwickler</labelDevelopers>
+            <labelPublishers>Verleger</labelPublishers>
+            <labelLastPlayed>Zuletzt gespielt</labelLastPlayed>
+            <labelPlaytime>Spielzeit</labelPlaytime>
+            <labelController>Controller</labelController>
+        </variables>
+    </language>
+
+    <language name="es_ES">
+        <variables>
+            <labelHome>Inicio</labelHome>
+            <labelManufacturer>Fabricante</labelManufacturer>
+            <labelRelease>Lanzamiento</labelRelease>
+            <labelCollection>Colección</labelCollection>
+            <labelRating>Puntuación</labelRating>
+            <labelInformation>Información</labelInformation>
+            <labelGenre>Género</labelGenre>
+            <labelDevelopers>Desarrolladores</labelDevelopers>
+            <labelPublishers>Editores</labelPublishers>
+            <labelLastPlayed>Último acceso</labelLastPlayed>
+            <labelPlaytime>Tiempo jugado</labelPlaytime>
+            <labelController>Controlador</labelController>
+        </variables>
+    </language>
+
+    <language name="fr_FR">
+        <variables>
+            <labelHome>Accueil</labelHome>
+            <labelManufacturer>Fabricant</labelManufacturer>
+            <labelRelease>Sortie</labelRelease>
+            <labelCollection>Collection</labelCollection>
+            <labelRating>Notation</labelRating>
+            <labelInformation>Informations</labelInformation>
+            <labelGenre>Genre</labelGenre>
+            <labelDevelopers>Développeurs</labelDevelopers>
+            <labelPublishers>Éditeurs</labelPublishers>
+            <labelLastPlayed>Dernière partie</labelLastPlayed>
+            <labelPlaytime>Temps de jeu</labelPlaytime>
+            <labelController>Manette</labelController>
+        </variables>
+    </language>
+
+    <language name="hr_HR">
+        <variables>
+            <labelHome>Početna</labelHome>
+            <labelManufacturer>Proizvođač</labelManufacturer>
+            <labelRelease>Datum izdanja</labelRelease>
+            <labelCollection>Kolekcija</labelCollection>
+            <labelRating>Ocjena</labelRating>
+            <labelInformation>Informacije</labelInformation>
+            <labelGenre>Žanr</labelGenre>
+            <labelDevelopers>Programeri</labelDevelopers>
+            <labelPublishers>Nakladnici</labelPublishers>
+            <labelLastPlayed>Zadnje igrano</labelLastPlayed>
+            <labelPlaytime>Vrijeme igranja</labelPlaytime>
+            <labelController>Kontroler</labelController>
+        </variables>
+    </language>
+
+    <language name="it_IT">
+        <variables>
+            <labelHome>Home</labelHome>
+            <labelManufacturer>Produttore</labelManufacturer>
+            <labelRelease>Rilascio</labelRelease>
+            <labelCollection>Collezione</labelCollection>
+            <labelRating>Valutazione</labelRating>
+            <labelInformation>Informazioni</labelInformation>
+            <labelGenre>Genere</labelGenre>
+            <labelDevelopers>Sviluppatori</labelDevelopers>
+            <labelPublishers>Editori</labelPublishers>
+            <labelLastPlayed>Ultima partita</labelLastPlayed>
+            <labelPlaytime>Tempo di gioco</labelPlaytime>
+            <labelController>Controller</labelController>
+        </variables>
+    </language>
+
+    <language name="ja_JP">
+        <variables>
+            <fontMeta>./resources/fonts/fusion-pixel-12px-monospaced-ja.ttf</fontMeta>
+            <labelHome>ホーム</labelHome>
+            <labelManufacturer>メーカー</labelManufacturer>
+            <labelRelease>発売年</labelRelease>
+            <labelCollection>コレクション</labelCollection>
+            <labelRating>評価</labelRating>
+            <labelInformation>情報</labelInformation>
+            <labelGenre>ジャンル</labelGenre>
+            <labelDevelopers>開発者</labelDevelopers>
+            <labelPublishers>発売元</labelPublishers>
+            <labelLastPlayed>最終プレイ</labelLastPlayed>
+            <labelPlaytime>プレイ時間</labelPlaytime>
+            <labelController>コントローラー</labelController>
+        </variables>
+    </language>
+
+    <language name="ko_KR">
+        <variables>
+            <fontMeta>./resources/fonts/fusion-pixel-12px-monospaced-ko.ttf</fontMeta>
+            <labelHome>홈</labelHome>
+            <labelManufacturer>제조사</labelManufacturer>
+            <labelRelease>출시연도</labelRelease>
+            <labelCollection>컬렉션</labelCollection>
+            <labelRating>평점</labelRating>
+            <labelInformation>정보</labelInformation>
+            <labelGenre>장르</labelGenre>
+            <labelDevelopers>개발사</labelDevelopers>
+            <labelPublishers>퍼블리셔</labelPublishers>
+            <labelLastPlayed>마지막 플레이</labelLastPlayed>
+            <labelPlaytime>플레이 시간</labelPlaytime>
+            <labelController>컨트롤러</labelController>
+        </variables>
+    </language>
+
+    <language name="nl_NL">
+        <variables>
+            <labelHome>Home</labelHome>
+            <labelManufacturer>Fabrikant</labelManufacturer>
+            <labelRelease>Uitgave</labelRelease>
+            <labelCollection>Collectie</labelCollection>
+            <labelRating>Beoordeling</labelRating>
+            <labelInformation>Informatie</labelInformation>
+            <labelGenre>Genre</labelGenre>
+            <labelDevelopers>Ontwikkelaars</labelDevelopers>
+            <labelPublishers>Uitgevers</labelPublishers>
+            <labelLastPlayed>Laatst gespeeld</labelLastPlayed>
+            <labelPlaytime>Speeltijd</labelPlaytime>
+            <labelController>Controller</labelController>
+        </variables>
+    </language>
+
+    <language name="pl_PL">
+        <variables>
+            <labelHome>Platformy</labelHome>
+            <labelManufacturer>Producent</labelManufacturer>
+            <labelRelease>Wydanie</labelRelease>
+            <labelCollection>Kolekcja</labelCollection>
+            <labelRating>Ocena</labelRating>
+            <labelInformation>Informacje</labelInformation>
+            <labelGenre>Gatunek</labelGenre>
+            <labelDevelopers>Twórcy</labelDevelopers>
+            <labelPublishers>Wydawcy</labelPublishers>
+            <labelLastPlayed>Ostatnio grane</labelLastPlayed>
+            <labelPlaytime>Czas gry</labelPlaytime>
+            <labelController>Kontroler</labelController>
+        </variables>
+    </language>
+
+    <language name="pt_BR">
+        <variables>
+            <labelHome>Início</labelHome>
+            <labelManufacturer>Fabricante</labelManufacturer>
+            <labelRelease>Lançamento</labelRelease>
+            <labelCollection>Coleção</labelCollection>
+            <labelRating>Avaliação</labelRating>
+            <labelInformation>Informações</labelInformation>
+            <labelGenre>Gênero</labelGenre>
+            <labelDevelopers>Desenvolvedores</labelDevelopers>
+            <labelPublishers>Editoras</labelPublishers>
+            <labelLastPlayed>Última sessão</labelLastPlayed>
+            <labelPlaytime>Tempo de jogo</labelPlaytime>
+            <labelController>Controle</labelController>
+        </variables>
+    </language>
+
+    <language name="pt_PT">
+        <variables>
+            <labelHome>Início</labelHome>
+            <labelManufacturer>Fabricante</labelManufacturer>
+            <labelRelease>Lançamento</labelRelease>
+            <labelCollection>Coleção</labelCollection>
+            <labelRating>Avaliação</labelRating>
+            <labelInformation>Informações</labelInformation>
+            <labelGenre>Género</labelGenre>
+            <labelDevelopers>Desenvolvedores</labelDevelopers>
+            <labelPublishers>Editoras</labelPublishers>
+            <labelLastPlayed>Última sessão</labelLastPlayed>
+            <labelPlaytime>Tempo de jogo</labelPlaytime>
+            <labelController>Controlador</labelController>
+        </variables>
+    </language>
+
+    <language name="ro_RO">
+        <variables>
+            <labelHome>Acasă</labelHome>
+            <labelManufacturer>Producător</labelManufacturer>
+            <labelRelease>Lansare</labelRelease>
+            <labelCollection>Colecție</labelCollection>
+            <labelRating>Evaluare</labelRating>
+            <labelInformation>Informații</labelInformation>
+            <labelGenre>Gen</labelGenre>
+            <labelDevelopers>Dezvoltatori</labelDevelopers>
+            <labelPublishers>Editori</labelPublishers>
+            <labelLastPlayed>Ultima sesiune</labelLastPlayed>
+            <labelPlaytime>Timp de joc</labelPlaytime>
+            <labelController>Controler</labelController>
+        </variables>
+    </language>
+
+    <language name="ru_RU">
+        <variables>
+            <labelHome>Главная</labelHome>
+            <labelManufacturer>Производитель</labelManufacturer>
+            <labelRelease>Год выпуска</labelRelease>
+            <labelCollection>Коллекция</labelCollection>
+            <labelRating>Оценка</labelRating>
+            <labelInformation>Информация</labelInformation>
+            <labelGenre>Жанр</labelGenre>
+            <labelDevelopers>Разработчики</labelDevelopers>
+            <labelPublishers>Издатели</labelPublishers>
+            <labelLastPlayed>Последний запуск</labelLastPlayed>
+            <labelPlaytime>Время игры</labelPlaytime>
+            <labelController>Контроллер</labelController>
+        </variables>
+    </language>
+
+    <language name="sr_RS">
+        <variables>
+            <labelHome>Почетна</labelHome>
+            <labelManufacturer>Произвoђач</labelManufacturer>
+            <labelRelease>Издање</labelRelease>
+            <labelCollection>Збирка</labelCollection>
+            <labelRating>Оцена</labelRating>
+            <labelInformation>Информације</labelInformation>
+            <labelGenre>Жанр</labelGenre>
+            <labelDevelopers>Програмери</labelDevelopers>
+            <labelPublishers>Издавачи</labelPublishers>
+            <labelLastPlayed>Задње играно</labelLastPlayed>
+            <labelPlaytime>Време играња</labelPlaytime>
+            <labelController>Контролер</labelController>
+        </variables>
+    </language>
+
+    <language name="sv_SE">
+        <variables>
+            <labelHome>Hem</labelHome>
+            <labelManufacturer>Tillverkare</labelManufacturer>
+            <labelRelease>Utgivning</labelRelease>
+            <labelCollection>Samling</labelCollection>
+            <labelRating>Betyg</labelRating>
+            <labelInformation>Information</labelInformation>
+            <labelGenre>Genre</labelGenre>
+            <labelDevelopers>Utvecklare</labelDevelopers>
+            <labelPublishers>Utgivare</labelPublishers>
+            <labelLastPlayed>Senast spelad</labelLastPlayed>
+            <labelPlaytime>Speltid</labelPlaytime>
+            <labelController>Kontroller</labelController>
+        </variables>
+    </language>
+
+    <language name="zh_CN">
+        <variables>
+            <fontMeta>./resources/fonts/fusion-pixel-12px-monospaced-zh_hans.ttf</fontMeta>
+            <labelHome>主页</labelHome>
+            <labelManufacturer>制造商</labelManufacturer>
+            <labelRelease>发行年份</labelRelease>
+            <labelCollection>收藏</labelCollection>
+            <labelRating>评分</labelRating>
+            <labelInformation>信息</labelInformation>
+            <labelGenre>类型</labelGenre>
+            <labelDevelopers>开发商</labelDevelopers>
+            <labelPublishers>发行商</labelPublishers>
+            <labelLastPlayed>上次游玩</labelLastPlayed>
+            <labelPlaytime>游玩时间</labelPlaytime>
+            <labelController>手柄</labelController>
+        </variables>
+    </language>
+
+    <language name="zh_TW">
+        <variables>
+            <fontMeta>./resources/fonts/fusion-pixel-12px-monospaced-zh_hant.ttf</fontMeta>
+            <labelHome>主頁</labelHome>
+            <labelManufacturer>製造商</labelManufacturer>
+            <labelRelease>發行年份</labelRelease>
+            <labelCollection>收藏</labelCollection>
+            <labelRating>評分</labelRating>
+            <labelInformation>資訊</labelInformation>
+            <labelGenre>類型</labelGenre>
+            <labelDevelopers>開發商</labelDevelopers>
+            <labelPublishers>發行商</labelPublishers>
+            <labelLastPlayed>上次遊玩</labelLastPlayed>
+            <labelPlaytime>遊玩時間</labelPlaytime>
+            <labelController>手把</labelController>
+        </variables>
+    </language>
+
+</theme>

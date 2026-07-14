@@ -1,0 +1,5 @@
+<svg width="222" height="222" viewBox="0 0 222 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Inner fill shape split out of carousel-tile-selected.svg (the large
+     sub-path). Pairs with carousel-tile-selected-outline.svg (the border ring). -->
+<path d="M208 8H212V10H214V14H216V208H214V212H212V214H208V216H14V214H10V212H8V208H6V14H8V10H10V8H14V6H208V8Z" fill="white"/>
+</svg>

@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+theme name:       Analogue 3D OS Menu
+originally by:    Analogue (https://www.analogue.co/os)
+ported by:        Sean Fletcher
+-->
+
+<theme>
+
+    <include>./color-schemes.xml</include>
+    <include>./aspect-ratios.xml</include>
+    <include>./system/metadata/_default.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
+    <include>./languages.xml</include>
+    <include>./transitions.xml</include>
+
+    <variables>
+        <fontPrimary>./resources/fonts/GamePocket-Regular.ttf</fontPrimary>
+        <fontMeta>./resources/fonts/fusion-pixel-12px-monospaced-latin.ttf</fontMeta>
+
+        <metaLabelX>0.0281</metaLabelX>
+        <contentX>0.2641</contentX>
+        <contentXBadge>0.2672</contentXBadge>
+        <metaRatingX>0.26623</metaRatingX>
+
+        <metaLabelW>0.22</metaLabelW>
+        <metaValueW>0.47</metaValueW>
+        <metaRowH>0.0278</metaRowH>
+        <badgeH>0.0315</badgeH>
+        <badgeBgH>0.0259</badgeBgH>
+        <metaRatingBgW>0.0718</metaRatingBgW>
+
+        <cornerRadiusMedium>0.004166666667</cornerRadiusMedium>
+        <cornerRadiusSmall>0.002083333334</cornerRadiusSmall>
+
+        <rowOneY>0.5796</rowOneY>
+        <rowTwoY>0.6093</rowTwoY>
+        <rowThreeY>0.6389</rowThreeY>
+        <rowFourY>0.6685</rowFourY>
+        <rowFiveY>0.6981</rowFiveY>
+        <rowSixY>0.7278</rowSixY>
+        <rowSevenY>0.7574</rowSevenY>
+        <rowEightY>0.787</rowEightY>
+        <rowNineY>0.8167</rowNineY>
+        <rowTenY>0.8463</rowTenY>
+        <rowElevenY>0.8759</rowElevenY>
+
+        <gameLastPlayedY>0.8167</gameLastPlayedY>
+        <gamePlaytimeY>0.8463</gamePlaytimeY>
+        <gameInfoY>0.8759</gameInfoY>
+
+        <fontSizeUI>0.0361</fontSizeUI>
+        <fontSizeHeading>0.027</fontSizeHeading>
+        <fontSizeMeta>0.024</fontSizeMeta>
+        <fontSizeList>${fontSizeMeta}</fontSizeList>
+        <fontSizeSectionTitle>0.0333</fontSizeSectionTitle>
+        <fontSizeTitle>0.055</fontSizeTitle>
+        <fontSizeSmall>0.017</fontSizeSmall>
+        <clockFontSize>0.027075</clockFontSize>
+        <systemNameFontSize>0.0365</systemNameFontSize>
+        <systemNameAlign>left</systemNameAlign>
+        <sectionTitleH>0.0463</sectionTitleH>
+        <gameTitleH>0.0509</gameTitleH>
+
+        <viewTitleIconSize>0.0188 0</viewTitleIconSize>
+        <navLRSize>0 0.0334</navLRSize>
+
+        <helpsysEntrySpacing>0.0245</helpsysEntrySpacing>
+        <helpsysIconTextSpacing>0.0083</helpsysIconTextSpacing>
+        <helpEntriesGamelist>a, b, x, y</helpEntriesGamelist>
+        <sysStatusEntrySpacing>0.0083</sysStatusEntrySpacing>
+        <badgeItemMargin>0.002083 0.002083</badgeItemMargin>
+        <textlistH>0.7148</textlistH>
+        <textlistY>0.1852</textlistY>
+        <textlistW>${metaValueW}</textlistW>
+        <listSelectedMargins>0.0094 0.0094</listSelectedMargins>
+
+        <gridImageInterpolation>linear</gridImageInterpolation>
+        <gridImageRelativeScale>0.991</gridImageRelativeScale>
+        <gridTextBgColor>61616133</gridTextBgColor>
+        <gridW>0.9444</gridW>
+        <gridItemW>0.2361</gridItemW>
+        <gridItemH4-3>0.3148</gridItemH4-3>
+        <gridItemH16-9>0.2361</gridItemH16-9>
+        <gridItemH3-2>0.2798</gridItemH3-2>
+        <gridItemH10-9>0.3778</gridItemH10-9>
+        <gridItemH10-7>0.2938</gridItemH10-7>
+        <gridItemH8-7>0.3673</gridItemH8-7>
+        <gridItemH20-19>0.3988</gridItemH20-19>
+        <gridItemH16-15>0.3936</gridItemH16-15>
+        <gridItemH1-1>0.4197</gridItemH1-1>
+        <gridItemH5-3>0.2518</gridItemH5-3>
+        <gridItemH30-17>0.2378</gridItemH30-17>
+        <gridItemH14-9>0.2698</gridItemH14-9>
+        <gridItemH>${gridItemH4-3}</gridItemH>
+
+        <grid5ItemW>0.18888</grid5ItemW>
+        <grid5ItemH4-3>0.2518</grid5ItemH4-3>
+        <grid5ItemH16-9>0.1889</grid5ItemH16-9>
+        <grid5ItemH3-2>0.2238</grid5ItemH3-2>
+        <grid5ItemH10-9>0.3022</grid5ItemH10-9>
+        <grid5ItemH10-7>0.2350</grid5ItemH10-7>
+        <grid5ItemH8-7>0.2938</grid5ItemH8-7>
+        <grid5ItemH20-19>0.3190</grid5ItemH20-19>
+        <grid5ItemH16-15>0.3149</grid5ItemH16-15>
+        <grid5ItemH1-1>0.3358</grid5ItemH1-1>
+        <grid5ItemH5-3>0.2014</grid5ItemH5-3>
+        <grid5ItemH30-17>0.1902</grid5ItemH30-17>
+        <grid5ItemH14-9>0.2158</grid5ItemH14-9>
+        <grid5ItemH>${grid5ItemH4-3}</grid5ItemH>
+
+        <systemCarouselH>0.312</systemCarouselH>
+        <systemCarouselBgH>0.3676</systemCarouselBgH>
+        <systemCarouselItemW>0.1979</systemCarouselItemW>
+        <systemCarouselItemH>0.1935</systemCarouselItemH>
+        <systemCarouselMaxItems>4.26</systemCarouselMaxItems>
+        <systemCarouselDimming>0.95</systemCarouselDimming>
+        <systemCardW>0</systemCardW>
+        <systemCarouselTileSelected>./resources/images/carousel-system-tile-selected.svg</systemCarouselTileSelected>
+        <systemCarouselTileUnselected>./resources/images/carousel-system-tile.svg</systemCarouselTileUnselected>
+        <systemCarouselCardX>0.363</systemCarouselCardX>
+        <systemCarouselTileXn5>-0.8107</systemCarouselTileXn5>
+        <systemCarouselTileXn4>-0.5760</systemCarouselTileXn4>
+        <systemCarouselTileXn3>-0.3412</systemCarouselTileXn3>
+        <systemCarouselTileXn2>-0.1065</systemCarouselTileXn2>
+        <systemCarouselTileXn1>0.1283</systemCarouselTileXn1>
+        <systemCarouselTileXp1>0.5977</systemCarouselTileXp1>
+        <systemCarouselTileXp2>0.8325</systemCarouselTileXp2>
+        <systemCarouselTileXp3>1.0672</systemCarouselTileXp3>
+        <systemCarouselTileXp4>1.3019</systemCarouselTileXp4>
+        <systemCarouselTileXp5>1.5367</systemCarouselTileXp5>
+        <systemCarouselBgY>0.3111</systemCarouselBgY>
+        <systemCarouselY>0.3389</systemCarouselY>
+        <systemNameY>0.3389</systemNameY>
+        <systemNameW>0.1979</systemNameW>
+
+        <gameCarouselH>0.1944</gameCarouselH>
+        <gameCarouselItemW>0.09846</gameCarouselItemW>
+        <gameCarouselItemH>0.17496</gameCarouselItemH>
+        <gameCarouselCapsItemW>0.10802</gameCarouselCapsItemW>
+        <gameCarouselCapsItemH>0.19203</gameCarouselCapsItemH>
+        <gameCarouselCapsCornerRadius>0.0052083</gameCarouselCapsCornerRadius>
+        <carouselCardBgH>0.2056</carouselCardBgH>
+        <gameCarouselSelectedMargins>.0494 .0494</gameCarouselSelectedMargins>
+        <gameCarouselMaxItems>8</gameCarouselMaxItems>
+        <gameCarouselTileSelected>./resources/images/carousel-tile-selected-fill.svg</gameCarouselTileSelected>
+        <gameCarouselTileSelectedOutline>./resources/images/carousel-tile-selected-outline.svg</gameCarouselTileSelectedOutline>
+        <gameCarouselTileUnselected>./resources/images/carousel-tile.svg</gameCarouselTileUnselected>
+        <carouselTileXn5>-0.3556</carouselTileXn5>
+        <carouselTileXn4>-0.2306</carouselTileXn4>
+        <carouselTileXn3>-0.1056</carouselTileXn3>
+        <carouselTileExtendedVisible>true</carouselTileExtendedVisible>
+        <carouselTilePExtendedVisible>true</carouselTilePExtendedVisible>
+        <carouselTileXn2>0.0194</carouselTileXn2>
+        <carouselTileXn1>0.1444</carouselTileXn1>
+        <carouselTileXp1>0.4932</carouselTileXp1>
+        <carouselTileXp2>0.6182</carouselTileXp2>
+        <carouselTileXp3>0.7432</carouselTileXp3>
+        <carouselTileXp4>0.8682</carouselTileXp4>
+        <carouselTileXp5>0.9932</carouselTileXp5>
+        <gameCarouselY>0.3111</gameCarouselY>
+        <gameTitleY>0.5111</gameTitleY>
+        <carouselSystemNameY>0.1898</carouselSystemNameY>
+        <galleryCarouselY>2.0</galleryCarouselY>
+        <galleryCoverSize>0.2813 0.5</galleryCoverSize>
+        <galleryCoverVisible>false</galleryCoverVisible>
+        <galleryCoverSquareW>0.22</galleryCoverSquareW>
+        <galleryCoverSquareH>0.39111</galleryCoverSquareH>
+        <statusBadgesW>0.0792</statusBadgesW>
+        <colorTextPrimary>FFFFFFFF</colorTextPrimary>
+        <colorTextMuted>FFFFFFCB</colorTextMuted>
+        <colorTextSubtle>FFFFFF80</colorTextSubtle>
+
+        <colorBase>000000FF</colorBase>
+        <colorOverlay>000000CC</colorOverlay>
+        <colorTransparent>00000000</colorTransparent>
+        <colorBarOverlay>00000080</colorBarOverlay>
+
+        <colorImageTint>FFFFFFFF</colorImageTint>
+        <mediaImageSaturation>1</mediaImageSaturation>
+        <bgMediaType>fanart</bgMediaType>
+        <bgMediaOpacity>1</bgMediaOpacity>
+        <bgMediaStaticVisible>false</bgMediaStaticVisible>
+        <bgMediaVideoVisible>true</bgMediaVideoVisible>
+        <bgMediaCustomVisible>false</bgMediaCustomVisible>
+
+        <textAlign>left</textAlign>
+        <originXflip>0</originXflip>
+        <clockX>0.973</clockX>
+        <clockOriginX>1</clockOriginX>
+        <clockAlign>right</clockAlign>
+        <gamelistSectionTitleX>0.2947</gamelistSectionTitleX>
+        <carouselCardX>0.3188</carouselCardX>
+        <statusBadgesX>0.2432</statusBadgesX>
+        <galleryStatusBadgesX>0.0351</galleryStatusBadgesX>
+        <systemCarouselHOffset>-0.137</systemCarouselHOffset>
+        <gameCarouselHOffset>-0.1812</gameCarouselHOffset>
+        <imageFlipH>false</imageFlipH>
+
+    </variables>
+
+    <!-- === FONT SIZE OPTION: footer text (clock/help/system-status) + game textlist === -->
+    <fontSize name="small">
+        <variables>
+            <fontSizeUI>0.0361</fontSizeUI>
+            <clockFontSize>0.027075</clockFontSize>
+            <fontSizeList>0.024</fontSizeList>
+        </variables>
+    </fontSize>
+    <fontSize name="medium">
+        <variables>
+            <fontSizeUI>0.0403</fontSizeUI>
+            <clockFontSize>0.0302</clockFontSize>
+            <fontSizeList>0.0345</fontSizeList>
+        </variables>
+    </fontSize>
+    <fontSize name="large">
+        <variables>
+            <fontSizeUI>0.0444</fontSizeUI>
+            <clockFontSize>0.0333</clockFontSize>
+            <fontSizeList>0.045</fontSizeList>
+        </variables>
+    </fontSize>
+
+    <!-- === COLOR SCHEMES: defined in color-schemes.xml (first include) === -->
+
+    <!-- === SHARED ACROSS ALL VARIANTS === -->
+    <variant name="all">
+
+        <view name="system, gamelist">
+
+            <helpsystem name="help">
+                <pos>${contentX} 0.95</pos>
+                <origin>${originXflip} 0.5</origin>
+                <letterCase>capitalize</letterCase>
+                <textColor>${colorTextPrimary}</textColor>
+                <iconColor>${colorTextPrimary}</iconColor>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeUI}</fontSize>
+                <entryRelativeScale>0.75</entryRelativeScale>
+                <iconTextSpacing>${helpsysIconTextSpacing}</iconTextSpacing>
+                <entrySpacing>${helpsysEntrySpacing}</entrySpacing>
+
+                <customButtonIcon button="button_a_XBOX">./resources/images/icons/button_a.svg</customButtonIcon>
+                <customButtonIcon button="button_b_XBOX">./resources/images/icons/button_b.svg</customButtonIcon>
+                <customButtonIcon button="button_x_XBOX">./resources/images/icons/button_x.svg</customButtonIcon>
+                <customButtonIcon button="button_y_XBOX">./resources/images/icons/button_y.svg</customButtonIcon>
+                <customButtonIcon button="button_a_switch">./resources/images/icons/button_b.svg</customButtonIcon>
+                <customButtonIcon button="button_b_switch">./resources/images/icons/button_a.svg</customButtonIcon>
+                <customButtonIcon button="button_x_switch">./resources/images/icons/button_y.svg</customButtonIcon>
+                <customButtonIcon button="button_y_switch">./resources/images/icons/button_x.svg</customButtonIcon>
+                <customButtonIcon button="button_a_SNES">./resources/images/icons/button_b.svg</customButtonIcon>
+                <customButtonIcon button="button_b_SNES">./resources/images/icons/button_a.svg</customButtonIcon>
+                <customButtonIcon button="button_x_SNES">./resources/images/icons/button_y.svg</customButtonIcon>
+                <customButtonIcon button="button_y_SNES">./resources/images/icons/button_x.svg</customButtonIcon>
+
+                <customButtonIcon button="button_a_PS">./resources/images/icons/button_cross.svg</customButtonIcon>
+                <customButtonIcon button="button_b_PS">./resources/images/icons/button_circle.svg</customButtonIcon>
+                <customButtonIcon button="button_x_PS">./resources/images/icons/button_square.svg</customButtonIcon>
+                <customButtonIcon button="button_y_PS">./resources/images/icons/button_triangle.svg</customButtonIcon>
+
+                <customButtonIcon button="button_back_switch">./resources/images/icons/button_minus.svg</customButtonIcon>
+                <customButtonIcon button="button_start_switch">./resources/images/icons/button_plus.svg</customButtonIcon>
+
+                <!-- Back / Start: XBOX — no icons yet
+                <customButtonIcon button="button_back_XBOX">./resources/images/icons/button_back_xbox.svg</customButtonIcon>
+                <customButtonIcon button="button_start_XBOX">./resources/images/icons/button_start_xbox.svg</customButtonIcon>
+                <customButtonIcon button="button_back_XBOX360">./resources/images/icons/button_back_xbox360.svg</customButtonIcon>
+                <customButtonIcon button="button_start_XBOX360">./resources/images/icons/button_start_xbox360.svg</customButtonIcon>
+                -->
+
+                <!-- Back / Start: PlayStation — no icons yet
+                <customButtonIcon button="button_back_PS123">./resources/images/icons/button_back_ps123.svg</customButtonIcon>
+                <customButtonIcon button="button_start_PS123">./resources/images/icons/button_start_ps123.svg</customButtonIcon>
+                <customButtonIcon button="button_back_PS4">./resources/images/icons/button_back_ps4.svg</customButtonIcon>
+                <customButtonIcon button="button_start_PS4">./resources/images/icons/button_start_ps4.svg</customButtonIcon>
+                <customButtonIcon button="button_back_PS5">./resources/images/icons/button_back_ps5.svg</customButtonIcon>
+                <customButtonIcon button="button_start_PS5">./resources/images/icons/button_start_ps5.svg</customButtonIcon>
+                -->
+
+                <!-- Back / Start: SNES — no icons yet
+                <customButtonIcon button="button_back_SNES">./resources/images/icons/button_back_snes.svg</customButtonIcon>
+                <customButtonIcon button="button_start_SNES">./resources/images/icons/button_start_snes.svg</customButtonIcon>
+                -->
+
+                <!-- Shoulder / trigger buttons — no icons yet
+                <customButtonIcon button="button_l">./resources/images/icons/button_l.svg</customButtonIcon>
+                <customButtonIcon button="button_r">./resources/images/icons/button_r.svg</customButtonIcon>
+                <customButtonIcon button="button_lr">./resources/images/icons/button_lr.svg</customButtonIcon>
+                <customButtonIcon button="button_lt">./resources/images/icons/button_lt.svg</customButtonIcon>
+                <customButtonIcon button="button_rt">./resources/images/icons/button_rt.svg</customButtonIcon>
+                <customButtonIcon button="button_ltrt">./resources/images/icons/button_ltrt.svg</customButtonIcon>
+                -->
+            </helpsystem>
+
+            <clock name="clock">
+                <pos>${clockX} 0.95</pos>
+                <size>${metaLabelW} 0</size>
+                <origin>${clockOriginX} 0.5</origin>
+                <horizontalAlignment>${clockAlign}</horizontalAlignment>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+            </clock>
+
+            <systemstatus name="system-status">
+                <pos>${metaLabelX} 0.95</pos>
+                <origin>${originXflip} 0.5</origin>
+                <textRelativeScale>0.75</textRelativeScale>
+                <entrySpacing>${sysStatusEntrySpacing}</entrySpacing>
+                <fontPath>${fontPrimary}</fontPath>
+                <height>${fontSizeUI}</height>
+                <color>${colorTextPrimary}</color>
+                <customIcon icon="icon_bluetooth">./resources/images/icons/icon-bluetooth.svg</customIcon>
+                <customIcon icon="icon_wifi">./resources/images/icons/icon-wifi.svg</customIcon>
+                <customIcon icon="icon_battery_low">./resources/images/icons/icon-battery-low.svg</customIcon>
+                <customIcon icon="icon_battery_medium">./resources/images/icons/icon-battery-medium.svg</customIcon>
+                <customIcon icon="icon_battery_high">./resources/images/icons/icon-battery-high.svg</customIcon>
+                <customIcon icon="icon_battery_full">./resources/images/icons/icon-battery-full.svg</customIcon>
+                <customIcon icon="icon_battery_charging">./resources/images/icons/icon-battery-charging.svg</customIcon>
+
+                <!-- No icons yet:
+                <customIcon icon="icon_cellular">./resources/images/icons/icon-cellular.svg</customIcon>
+                -->
+            </systemstatus>
+
+            <image name="help-bg">
+                <pos>0 1</pos>
+                <origin>0 1</origin>
+                <size>1 0.10</size>
+                <path>./resources/images/help-fade.svg</path>
+                <zIndex>20</zIndex>
+            </image>
+
+        </view>
+
+        <view name="system, gamelist">
+
+            <image name="backgroundOverlay">
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./resources/images/white.png</path>
+                <color>${colorOverlay}</color>
+                <zIndex>5</zIndex>
+            </image>
+
+        </view>
+
+        <!-- === SYSTEM VIEW === -->
+        <view name="system">
+
+            <helpsystem name="help">
+                <entries>a</entries>
+            </helpsystem>
+
+            <image name="base">
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./resources/images/white.png</path>
+                <color>${colorBase}</color>
+                <zIndex>0</zIndex>
+            </image>
+
+            <text name="sectionTitle">
+                <pos>${contentX} 0.05</pos>
+                <size>0.4708 ${sectionTitleH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <text>${labelHome}</text>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeSectionTitle}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="systemName">
+                <text>${systemName}</text>
+                <letterCase>none</letterCase>
+            </text>
+            <text name="autoCollectionName">
+                <text>${systemName}</text>
+                <letterCase>none</letterCase>
+            </text>
+            <text name="customCollectionName">
+                <text>${systemName}</text>
+                <letterCase>none</letterCase>
+            </text>
+
+            <text name="systemName, autoCollectionName, customCollectionName">
+                <pos>${contentX} ${systemNameY}</pos>
+                <size>${systemNameW} 0</size>
+                <origin>${originXflip} 0</origin>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${systemNameFontSize}</fontSize>
+                <color>${colorBase}</color>
+                <horizontalAlignment>${systemNameAlign}</horizontalAlignment>
+                <verticalAlignment>top</verticalAlignment>
+                <lineSpacing>1.1</lineSpacing>
+                <zIndex>10</zIndex>
+            </text>
+
+            <carousel name="systemCarousel">
+                <pos>0.5 ${systemCarouselY}</pos>
+                <size>1 ${systemCarouselH}</size>
+                <origin>0.5 0</origin>
+                <type>horizontal</type>
+                <fastScrolling>true</fastScrolling>
+                <staticImage>./system/console-isometric/${system.theme}.png</staticImage>
+                <defaultImage>${systemCarouselDefaultImage}</defaultImage>
+                <imageInterpolation>nearest</imageInterpolation>
+                <unfocusedItemDimming>${systemCarouselDimming}</unfocusedItemDimming>
+                <maxItemCount>${systemCarouselMaxItems}</maxItemCount>
+                <itemSize>${systemCarouselItemW} ${systemCarouselItemH}</itemSize>
+                <itemScale>1</itemScale>
+                <horizontalOffset>${systemCarouselHOffset}</horizontalOffset>
+                <itemVerticalAlignment>bottom</itemVerticalAlignment>
+                <imageCornerRadius>${cornerRadiusMedium}</imageCornerRadius>
+                <imageFit>contain</imageFit>
+                <unfocusedItemOpacity>1</unfocusedItemOpacity>
+                <textColor>${colorTextPrimary}</textColor>
+                <textSelectedColor>${colorTransparent}</textSelectedColor>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeSmall}</fontSize>
+                <letterCase>capitalize</letterCase>
+                <imageColor>${colorImageTint}</imageColor>
+                <imageSaturation>${mediaImageSaturation}</imageSaturation>
+                <color>${colorTransparent}</color>
+                <zIndex>10</zIndex>
+            </carousel>
+
+            <image name="systemCarouselTileN5">
+                <pos>${systemCarouselTileXn5} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselTileN4">
+                <pos>${systemCarouselTileXn4} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselTileN3">
+                <pos>${systemCarouselTileXn3} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselTileN2">
+                <pos>${systemCarouselTileXn2} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselTileN1">
+                <pos>${systemCarouselTileXn1} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselBackground">
+                <pos>${systemCarouselCardX} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileSelected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>8</zIndex>
+            </image>
+            <image name="systemCarouselTileP1">
+                <pos>${systemCarouselTileXp1} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselTileP2">
+                <pos>${systemCarouselTileXp2} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselTileP3">
+                <pos>${systemCarouselTileXp3} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselTileP4">
+                <pos>${systemCarouselTileXp4} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="systemCarouselTileP5">
+                <pos>${systemCarouselTileXp5} ${systemCarouselBgY}</pos>
+                <size>${systemCardW} ${systemCarouselBgH}</size>
+                <origin>0.5 0</origin>
+                <path>${systemCarouselTileUnselected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>7</zIndex>
+            </image>
+
+            <text name="sysManufacturerLabel, sysReleaseLabel, sysCollectionLabel">
+                <size>${metaLabelW} ${metaRowH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <fontPath>${fontMeta}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextMuted}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="sysManufacturerValue, sysReleaseValue, sysCollectionValue">
+                <size>${metaValueW} ${metaRowH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <fontPath>${fontMeta}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <defaultValue>-</defaultValue>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="sysManufacturerLabel">
+                <pos>${metaLabelX} ${rowNineY}</pos>
+                <text>${labelManufacturer}</text>
+            </text>
+
+            <text name="sysManufacturerValue">
+                <pos>${contentX} ${rowNineY}</pos>
+                <text>${systemManufacturer}</text>
+            </text>
+
+            <text name="sysReleaseLabel">
+                <pos>${metaLabelX} ${rowTenY}</pos>
+                <text>${labelRelease}</text>
+            </text>
+
+            <text name="sysReleaseValue">
+                <pos>${contentX} ${rowTenY}</pos>
+                <text>${systemReleaseYear}</text>
+            </text>
+
+            <text name="sysCollectionLabel">
+                <pos>${metaLabelX} ${rowElevenY}</pos>
+                <text>${labelCollection}</text>
+            </text>
+
+            <text name="sysCollectionValue">
+                <pos>${contentX} ${rowElevenY}</pos>
+                <systemdata>gamecountGames</systemdata>
+            </text>
+
+        </view>
+
+        <!-- === GAMELIST VIEW === -->
+        <view name="gamelist">
+
+            <helpsystem name="help">
+                <entries>${helpEntriesGamelist}</entries>
+            </helpsystem>
+
+            <image name="base">
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./resources/images/white.png</path>
+                <color>${colorBase}</color>
+                <zIndex>0</zIndex>
+            </image>
+
+            <image name="viewTitleIcon">
+                <pos>${contentXBadge} 0.05</pos>
+                <size>${viewTitleIconSize}</size>
+                <origin>${originXflip} 0.5</origin>
+                <path>${viewTitleIcon}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>10</zIndex>
+            </image>
+
+            <text name="sectionTitle">
+                <pos>${gamelistSectionTitleX} 0.05</pos>
+                <size>0.4402 ${sectionTitleH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <text>${systemName}</text>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeSectionTitle}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <visible>${sectionTitleVisible}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="collectionSectionTitle">
+                <pos>${gamelistSectionTitleX} 0.05</pos>
+                <size>0.4402 ${sectionTitleH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <metadata>systemFullname</metadata>
+                <defaultValue>Collections</defaultValue>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeSectionTitle}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <visible>${collectionsGamelist}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+        </view>
+
+    </variant>
+
+    <!-- === VARIANT: Carousel === -->
+    <variant name="carousel-carts, carousel-covers, carousel-caps">
+
+        <view name="gamelist">
+
+            <text name="autoCollectionName, customCollectionName">
+                <pos>${metaLabelX} 0.1334</pos>
+                <size>0.7083 0.0278</size>
+                <origin>${originXflip} 0.5</origin>
+                <fontPath>${fontMeta}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <zIndex>10</zIndex>
+            </text>
+
+            <image name="carouselTileN5">
+                <pos>${carouselTileXn5} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <visible>${carouselTileExtendedVisible}</visible>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselTileN4">
+                <pos>${carouselTileXn4} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <visible>${carouselTileExtendedVisible}</visible>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselTileN3">
+                <pos>${carouselTileXn3} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <visible>${carouselTileExtendedVisible}</visible>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselTileN2">
+                <pos>${carouselTileXn2} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselTileN1">
+                <pos>${carouselTileXn1} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselCardBackground">
+                <pos>${carouselCardX} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileSelected}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>8</zIndex>
+            </image>
+
+            <image name="carouselCardOutline">
+                <pos>${carouselCardX} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileSelectedOutline}</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>11</zIndex>
+            </image>
+            <image name="carouselTileP1">
+                <pos>${carouselTileXp1} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselTileP2">
+                <pos>${carouselTileXp2} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselTileP3">
+                <pos>${carouselTileXp3} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselTileP4">
+                <pos>${carouselTileXp4} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <visible>${carouselTilePExtendedVisible}</visible>
+                <zIndex>7</zIndex>
+            </image>
+            <image name="carouselTileP5">
+                <pos>${carouselTileXp5} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <visible>${carouselTilePExtendedVisible}</visible>
+                <zIndex>7</zIndex>
+            </image>
+
+            <carousel name="gameCarousel">
+                <pos>0.5 ${gameCarouselY}</pos>
+                <size>1 ${gameCarouselH}</size>
+                <origin>0.5 0.5</origin>
+                <type>horizontal</type>
+                <fastScrolling>true</fastScrolling>
+                <imageType>physicalmedia, cover</imageType>
+                <defaultImage>${gameCarouselDefaultImage}</defaultImage>
+                <defaultFolderImage>${gameCarouselFolderImage}</defaultFolderImage>
+                <letterCaseCustomCollections>none</letterCaseCustomCollections>
+                <maxItemCount>${gameCarouselMaxItems}</maxItemCount>
+                <itemSize>${gameCarouselItemW} ${gameCarouselItemH}</itemSize>
+                <itemScale>1.0</itemScale>
+                <horizontalOffset>${gameCarouselHOffset}</horizontalOffset>
+                <selectedItemMargins>${gameCarouselSelectedMargins}</selectedItemMargins>
+                <imageCornerRadius>${cornerRadiusMedium}</imageCornerRadius>
+                <imageFit>contain</imageFit>
+                <itemVerticalAlignment>center</itemVerticalAlignment>
+                <unfocusedItemOpacity>1</unfocusedItemOpacity>
+                <unfocusedItemDimming>1</unfocusedItemDimming>
+                <imageColor>${colorImageTint}</imageColor>
+                <imageSaturation>${mediaImageSaturation}</imageSaturation>
+                <textColor>${colorTextPrimary}</textColor>
+                <textSelectedColor>${colorBase}</textSelectedColor>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <letterCase>uppercase</letterCase>
+                <color>${colorTransparent}</color>
+                <systemNameSuffix>false</systemNameSuffix>
+                <zIndex>10</zIndex>
+            </carousel>
+
+            <badges name="gameStatusBadges">
+                <pos>${statusBadgesX} ${gameCarouselY}</pos>
+                <size>${statusBadgesW} 0.03</size>
+                <origin>0.5 0.5</origin>
+                <rotation>90</rotation>
+                <horizontalAlignment>center</horizontalAlignment>
+                <direction>row</direction>
+                <lines>1</lines>
+                <itemsPerLine>5</itemsPerLine>
+                <itemMargin>0.004167 0.002083</itemMargin>
+                <slots>collection, favorite, completed, folder</slots>
+                <customBadgeIcon badge="collection">./resources/images/badges/collection_icon_rotated.svg</customBadgeIcon>
+                <customBadgeIcon badge="favorite">./resources/images/badges/Favorite_icon_rotated.svg</customBadgeIcon>
+                <customBadgeIcon badge="completed">./resources/images/badges/Completed_icon_rotated.svg</customBadgeIcon>
+                <customBadgeIcon badge="folder">./resources/images/badges/Folder_icon_rotated.svg</customBadgeIcon>
+                <visible>${standardGamelist}</visible>
+                <zIndex>11</zIndex>
+            </badges>
+
+            <text name="gameTitle">
+                <pos>${contentX} ${gameTitleY}</pos>
+                <size>0.7083 ${gameTitleH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <metadata>name</metadata>
+                <metadataElement>false</metadataElement>
+                <systemNameSuffix>false</systemNameSuffix>
+                <defaultValue>Unknown Title</defaultValue>
+                <container>true</container>
+                <containerType>horizontal</containerType>
+                <containerScrollGap>1</containerScrollGap>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeTitle}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <visible>${standardGamelist}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="collectionTitleGrouped">
+                <pos>${contentX} ${gameTitleY}</pos>
+                <size>0.7083 ${gameTitleH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <metadata>customCollectionNameGrouped</metadata>
+                <metadataElement>false</metadataElement>
+                <systemNameSuffix>false</systemNameSuffix>
+                <defaultValue>:space:</defaultValue>
+                <container>true</container>
+                <containerType>horizontal</containerType>
+                <containerScrollGap>1</containerScrollGap>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeTitle}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <visible>${collectionsGamelist}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="carouselSystemName">
+                <pos>${contentX} ${carouselSystemNameY}</pos>
+                <size>${metaValueW} 0.0278</size>
+                <origin>${originXflip} 1</origin>
+                <metadata>sourceSystemName</metadata>
+                <defaultValue>:space:</defaultValue>
+                <letterCase>uppercase</letterCase>
+                <fontPath>${fontMeta}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextSubtle}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <verticalAlignment>bottom</verticalAlignment>
+                <visible>${gameSystemLabelVisible}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="rowOnelabel, rowTwoLabel, rowThreeLabel, rowFourLabel, rowFiveLabel, rowSixLabel, rowSevenLabel, rowEightLabel, rowNineLabel, rowTenLabel, rowElevenLabel">
+                <size>${metaLabelW} ${metaRowH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <fontPath>${fontMeta}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextMuted}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <visible>${standardGamelist}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="rowOneValue_bg, rowOneValue, rowThreeValue, rowFourValue, rowFiveValue, rowSixValue, rowEightValue, rowNineValue, rowTenValue, rowElevenValue">
+                <size>${metaValueW} ${metaRowH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <fontPath>${fontMeta}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <defaultValue>-</defaultValue>
+                <visible>${standardGamelist}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <datetime name="rowSevenValue, rowNineValue">
+                <size>${metaValueW} ${metaRowH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <fontPath>${fontMeta}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <letterCase>uppercase</letterCase>
+                <defaultValue>-</defaultValue>
+                <visible>${standardGamelist}</visible>
+                <zIndex>10</zIndex>
+            </datetime>
+
+            <text name="rowThreeValue">
+                <size>0 0</size>
+                <origin>${originXflip} 0.5</origin>
+                <lineSpacing>1</lineSpacing>
+                <color>${colorBase}</color>
+                <backgroundColor>${colorTextPrimary}</backgroundColor>
+                <backgroundMargins>0.0031 0.0031</backgroundMargins>
+                <backgroundCornerRadius>${cornerRadiusSmall}</backgroundCornerRadius>
+            </text>
+
+            <text name="rowOnelabel">
+                <pos>${metaLabelX} ${rowOneY}</pos>
+                <text>${labelRating}</text>
+            </text>
+
+            <text name="rowTwoLabel">
+                <pos>${metaLabelX} ${rowTwoY}</pos>
+                <text>${labelController}</text>
+            </text>
+
+            <text name="rowThreeLabel">
+                <pos>${metaLabelX} ${rowThreeY}</pos>
+                <text>${labelGenre}</text>
+            </text>
+
+            <text name="rowFiveLabel">
+                <pos>${metaLabelX} ${rowFiveY}</pos>
+                <text>${labelDevelopers}</text>
+            </text>
+
+            <text name="rowSixLabel">
+                <pos>${metaLabelX} ${rowSixY}</pos>
+                <text>${labelPublishers}</text>
+            </text>
+
+            <text name="rowSevenLabel">
+                <pos>${metaLabelX} ${rowSevenY}</pos>
+                <text>${labelRelease}</text>
+            </text>
+
+            <text name="rowNineLabel">
+                <pos>${metaLabelX} ${gameLastPlayedY}</pos>
+                <text>${labelLastPlayed}</text>
+            </text>
+
+            <text name="rowTenLabel">
+                <pos>${metaLabelX} ${gamePlaytimeY}</pos>
+                <text>${labelPlaytime}</text>
+            </text>
+
+            <text name="rowElevenLabel">
+                <pos>${metaLabelX} ${gameInfoY}</pos>
+                <text>${labelInformation}</text>
+            </text>
+
+            <text name="rowOneValue_bg">
+                <pos>${contentX} ${rowOneY}</pos>
+                <size>${metaRatingBgW} ${badgeBgH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <color>${colorTransparent}</color>
+                <metadata>rating</metadata>
+                <backgroundColor>${colorTextPrimary}</backgroundColor>
+                <backgroundCornerRadius>${cornerRadiusSmall}</backgroundCornerRadius>
+                <metadataElement>true</metadataElement>
+                <zIndex>9</zIndex>
+            </text>
+
+            <rating name="rowOneValue">
+                <pos>${metaRatingX} ${rowOneY}</pos>
+                <size>0 ${badgeH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <filledPath>./resources/images/badges/rating_filled.svg</filledPath>
+                <unfilledPath>./resources/images/badges/rating_unfilled.svg</unfilledPath>
+                <color>${colorBase}</color>
+                <visible>${standardGamelist}</visible>
+                <zIndex>10</zIndex>
+            </rating>
+
+            <badges name="infoBadges">
+                <pos>${contentX} ${gameInfoY}</pos>
+                <size>${metaValueW} ${badgeH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <lines>1</lines>
+                <itemsPerLine>4</itemsPerLine>
+                <direction>row</direction>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <itemMargin>${badgeItemMargin}</itemMargin>
+                <slots>broken, kidgame, manual</slots>
+                <customBadgeIcon badge="broken">./resources/images/badges/broken-tag.svg</customBadgeIcon>
+                <customBadgeIcon badge="kidgame">./resources/images/badges/kidgame-tag.svg</customBadgeIcon>
+                <customBadgeIcon badge="manual">./resources/images/badges/manual-tag.svg</customBadgeIcon>
+                <customBadgeIcon badge="controller">./resources/images/badges/controllers/transparent.svg</customBadgeIcon>
+                <controllerSize>1</controllerSize>
+                <controllerPos>0.5 0.5</controllerPos>
+                <customControllerIcon controller="flight_stick_generic">./resources/images/badges/controllers/flight_stick_generic.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_generic">./resources/images/badges/controllers/gamepad_generic.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_nintendo_64">./resources/images/badges/controllers/gamepad_nintendo_64.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_nintendo_gamecube">./resources/images/badges/controllers/gamepad_nintendo_gamecube.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_nintendo_nes">./resources/images/badges/controllers/gamepad_nintendo_nes.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_nintendo_snes">./resources/images/badges/controllers/gamepad_nintendo_snes.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_playstation">./resources/images/badges/controllers/gamepad_playstation.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_sega_dreamcast">./resources/images/badges/controllers/gamepad_sega_dreamcast.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_sega_master_system">./resources/images/badges/controllers/gamepad_sega_master_system.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_sega_md_3_buttons">./resources/images/badges/controllers/gamepad_sega_md_3_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_sega_md_6_buttons">./resources/images/badges/controllers/gamepad_sega_md_6_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_xbox">./resources/images/badges/controllers/gamepad_xbox.svg</customControllerIcon>
+                <customControllerIcon controller="joycon_left_or_right_nintendo">./resources/images/badges/controllers/joycon_left_or_right_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="joycon_pair_nintendo">./resources/images/badges/controllers/joycon_pair_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_1_button">./resources/images/badges/controllers/joystick_arcade_1_button.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_2_buttons">./resources/images/badges/controllers/joystick_arcade_2_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_3_buttons">./resources/images/badges/controllers/joystick_arcade_3_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_4_buttons">./resources/images/badges/controllers/joystick_arcade_4_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_5_buttons">./resources/images/badges/controllers/joystick_arcade_5_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_6_buttons">./resources/images/badges/controllers/joystick_arcade_6_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_no_buttons">./resources/images/badges/controllers/joystick_arcade_no_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_no_buttons_twin">./resources/images/badges/controllers/joystick_arcade_no_buttons_twin.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_generic">./resources/images/badges/controllers/joystick_generic.svg</customControllerIcon>
+                <customControllerIcon controller="keyboard_and_mouse_generic">./resources/images/badges/controllers/keyboard_and_mouse_generic.svg</customControllerIcon>
+                <customControllerIcon controller="keyboard_generic">./resources/images/badges/controllers/keyboard_generic.svg</customControllerIcon>
+                <customControllerIcon controller="lightgun_generic">./resources/images/badges/controllers/lightgun_generic.svg</customControllerIcon>
+                <customControllerIcon controller="lightgun_nintendo">./resources/images/badges/controllers/lightgun_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="mouse_amiga">./resources/images/badges/controllers/mouse_amiga.svg</customControllerIcon>
+                <customControllerIcon controller="mouse_generic">./resources/images/badges/controllers/mouse_generic.svg</customControllerIcon>
+                <customControllerIcon controller="spinner_generic">./resources/images/badges/controllers/spinner_generic.svg</customControllerIcon>
+                <customControllerIcon controller="steering_wheel_generic">./resources/images/badges/controllers/steering_wheel_generic.svg</customControllerIcon>
+                <customControllerIcon controller="trackball_generic">./resources/images/badges/controllers/trackball_generic.svg</customControllerIcon>
+                <customControllerIcon controller="unknown">./resources/images/badges/controllers/unknown.svg</customControllerIcon>
+                <customControllerIcon controller="wii_remote_and_nunchuk_nintendo">./resources/images/badges/controllers/wii_remote_and_nunchuk_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="wii_remote_nintendo">./resources/images/badges/controllers/wii_remote_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="xbox_kinect">./resources/images/badges/controllers/xbox_kinect.svg</customControllerIcon>
+                <visible>${standardGamelist}</visible>
+                <zIndex>10</zIndex>
+            </badges>
+
+            <text name="rowThreeValue">
+                <pos>${contentXBadge} ${rowThreeY}</pos>
+                <metadata>genre</metadata>
+            </text>
+
+            <text name="rowFiveValue">
+                <pos>${contentX} ${rowFiveY}</pos>
+                <metadata>developer</metadata>
+            </text>
+
+            <text name="rowSixValue">
+                <pos>${contentX} ${rowSixY}</pos>
+                <metadata>publisher</metadata>
+            </text>
+
+            <datetime name="rowSevenValue">
+                <pos>${contentX} ${rowSevenY}</pos>
+                <metadata>releasedate</metadata>
+                <format>%d-%m-%Y</format>
+            </datetime>
+
+            <datetime name="rowNineValue">
+                <pos>${contentX} ${gameLastPlayedY}</pos>
+                <metadata>lastplayed</metadata>
+            </datetime>
+
+            <text name="rowTenValue">
+                <pos>${contentX} ${gamePlaytimeY}</pos>
+                <metadata>playtime</metadata>
+            </text>
+
+            <badges name="controllerBadge">
+                <pos>${contentX} ${rowTwoY}</pos>
+                <size>${metaValueW} ${badgeH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <lines>1</lines>
+                <itemsPerLine>1</itemsPerLine>
+                <direction>row</direction>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <itemMargin>${badgeItemMargin}</itemMargin>
+                <slots>controller</slots>
+                <customBadgeIcon badge="controller">./resources/images/badges/controllers/transparent.svg</customBadgeIcon>
+                <controllerSize>1</controllerSize>
+                <controllerPos>0.5 0.5</controllerPos>
+                <customControllerIcon controller="flight_stick_generic">./resources/images/badges/controllers/flight_stick_generic.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_generic">./resources/images/badges/controllers/gamepad_generic.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_nintendo_64">./resources/images/badges/controllers/gamepad_nintendo_64.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_nintendo_gamecube">./resources/images/badges/controllers/gamepad_nintendo_gamecube.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_nintendo_nes">./resources/images/badges/controllers/gamepad_nintendo_nes.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_nintendo_snes">./resources/images/badges/controllers/gamepad_nintendo_snes.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_playstation">./resources/images/badges/controllers/gamepad_playstation.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_sega_dreamcast">./resources/images/badges/controllers/gamepad_sega_dreamcast.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_sega_master_system">./resources/images/badges/controllers/gamepad_sega_master_system.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_sega_md_3_buttons">./resources/images/badges/controllers/gamepad_sega_md_3_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_sega_md_6_buttons">./resources/images/badges/controllers/gamepad_sega_md_6_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="gamepad_xbox">./resources/images/badges/controllers/gamepad_xbox.svg</customControllerIcon>
+                <customControllerIcon controller="joycon_left_or_right_nintendo">./resources/images/badges/controllers/joycon_left_or_right_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="joycon_pair_nintendo">./resources/images/badges/controllers/joycon_pair_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_1_button">./resources/images/badges/controllers/joystick_arcade_1_button.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_2_buttons">./resources/images/badges/controllers/joystick_arcade_2_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_3_buttons">./resources/images/badges/controllers/joystick_arcade_3_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_4_buttons">./resources/images/badges/controllers/joystick_arcade_4_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_5_buttons">./resources/images/badges/controllers/joystick_arcade_5_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_6_buttons">./resources/images/badges/controllers/joystick_arcade_6_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_no_buttons">./resources/images/badges/controllers/joystick_arcade_no_buttons.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_arcade_no_buttons_twin">./resources/images/badges/controllers/joystick_arcade_no_buttons_twin.svg</customControllerIcon>
+                <customControllerIcon controller="joystick_generic">./resources/images/badges/controllers/joystick_generic.svg</customControllerIcon>
+                <customControllerIcon controller="keyboard_and_mouse_generic">./resources/images/badges/controllers/keyboard_and_mouse_generic.svg</customControllerIcon>
+                <customControllerIcon controller="keyboard_generic">./resources/images/badges/controllers/keyboard_generic.svg</customControllerIcon>
+                <customControllerIcon controller="lightgun_generic">./resources/images/badges/controllers/lightgun_generic.svg</customControllerIcon>
+                <customControllerIcon controller="lightgun_nintendo">./resources/images/badges/controllers/lightgun_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="mouse_amiga">./resources/images/badges/controllers/mouse_amiga.svg</customControllerIcon>
+                <customControllerIcon controller="mouse_generic">./resources/images/badges/controllers/mouse_generic.svg</customControllerIcon>
+                <customControllerIcon controller="spinner_generic">./resources/images/badges/controllers/spinner_generic.svg</customControllerIcon>
+                <customControllerIcon controller="steering_wheel_generic">./resources/images/badges/controllers/steering_wheel_generic.svg</customControllerIcon>
+                <customControllerIcon controller="trackball_generic">./resources/images/badges/controllers/trackball_generic.svg</customControllerIcon>
+                <customControllerIcon controller="unknown">./resources/images/badges/controllers/unknown.svg</customControllerIcon>
+                <customControllerIcon controller="wii_remote_and_nunchuk_nintendo">./resources/images/badges/controllers/wii_remote_and_nunchuk_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="wii_remote_nintendo">./resources/images/badges/controllers/wii_remote_nintendo.svg</customControllerIcon>
+                <customControllerIcon controller="xbox_kinect">./resources/images/badges/controllers/xbox_kinect.svg</customControllerIcon>
+                <visible>${standardGamelist}</visible>
+                <zIndex>10</zIndex>
+            </badges>
+
+        </view>
+
+    </variant>
+
+    <!-- === CAROUSEL MEDIA SPLIT: Carts vs Covers === -->
+    <variant name="carousel-carts">
+        <view name="gamelist">
+            <carousel name="gameCarousel">
+                <imageType>physicalmedia, cover</imageType>
+            </carousel>
+        </view>
+    </variant>
+
+    <variant name="carousel-covers">
+        <view name="gamelist">
+            <carousel name="gameCarousel">
+                <imageType>cover, physicalmedia</imageType>
+            </carousel>
+        </view>
+    </variant>
+
+    <!-- === CAROUSEL MEDIA: Caps (screenshots) === -->
+    <variant name="carousel-caps">
+        <view name="gamelist">
+            <carousel name="gameCarousel">
+                <imageType>screenshot, titlescreen</imageType>
+                <itemSize>${gameCarouselCapsItemW} ${gameCarouselCapsItemH}</itemSize>
+                <imageFit>cover</imageFit>
+                <imageCornerRadius>${gameCarouselCapsCornerRadius}</imageCornerRadius>
+            </carousel>
+            <image name="carouselTileN5"><visible>false</visible></image>
+            <image name="carouselTileN4"><visible>false</visible></image>
+            <image name="carouselTileN3"><visible>false</visible></image>
+            <image name="carouselTileN2"><visible>false</visible></image>
+            <image name="carouselTileN1"><visible>false</visible></image>
+            <image name="carouselCardBackground"><visible>false</visible></image>
+            <image name="carouselTileP1"><visible>false</visible></image>
+            <image name="carouselTileP2"><visible>false</visible></image>
+            <image name="carouselTileP3"><visible>false</visible></image>
+            <image name="carouselTileP4"><visible>false</visible></image>
+            <image name="carouselTileP5"><visible>false</visible></image>
+        </view>
+    </variant>
+
+    <!-- === SHARED BY ALL LAYOUT VARIANTS === -->
+    <variant name="carousel-carts, carousel-covers, carousel-caps, textlist, grid, grid5, gallery-fit, gallery-fill">
+
+        <view name="system">
+            <gameselector name="bgSelector">
+                <selection>random</selection>
+            </gameselector>
+            <image name="backgroundMediaStatic">
+                <gameselector>bgSelector</gameselector>
+            </image>
+            <video name="backgroundMedia">
+                <gameselector>bgSelector</gameselector>
+            </video>
+        </view>
+
+        <view name="system, gamelist">
+            <image name="backgroundMediaStatic">
+                <pos>${bgMediaPosX} ${bgMediaPosY}</pos>
+                <origin>${bgMediaOriginX} ${bgMediaOriginY}</origin>
+                <cropSize>${bgMediaCropSize}</cropSize>
+                <cropPos>${bgMediaCropPos}</cropPos>
+                <imageType>${bgMediaType}</imageType>
+                <opacity>${bgMediaOpacity}</opacity>
+                <visible>${bgMediaStaticVisible}</visible>
+                <scrollFadeIn>true</scrollFadeIn>
+                <zIndex>1</zIndex>
+            </image>
+
+            <image name="backgroundMediaCustomPng">
+                <pos>${bgMediaPosX} ${bgMediaPosY}</pos>
+                <origin>${bgMediaOriginX} ${bgMediaOriginY}</origin>
+                <cropSize>${bgMediaCropSize}</cropSize>
+                <cropPos>${bgMediaCropPos}</cropPos>
+                <path>./resources/custom/${system.name}.png</path>
+                <opacity>${bgMediaOpacity}</opacity>
+                <visible>${bgMediaCustomVisible}</visible>
+                <scrollFadeIn>true</scrollFadeIn>
+                <zIndex>2</zIndex>
+            </image>
+            <image name="backgroundMediaCustomJpg">
+                <pos>${bgMediaPosX} ${bgMediaPosY}</pos>
+                <origin>${bgMediaOriginX} ${bgMediaOriginY}</origin>
+                <cropSize>${bgMediaCropSize}</cropSize>
+                <cropPos>${bgMediaCropPos}</cropPos>
+                <path>./resources/custom/${system.name}.jpg</path>
+                <opacity>${bgMediaOpacity}</opacity>
+                <visible>${bgMediaCustomVisible}</visible>
+                <scrollFadeIn>true</scrollFadeIn>
+                <zIndex>2</zIndex>
+            </image>
+            <image name="backgroundMediaCustomWebp">
+                <pos>${bgMediaPosX} ${bgMediaPosY}</pos>
+                <origin>${bgMediaOriginX} ${bgMediaOriginY}</origin>
+                <cropSize>${bgMediaCropSize}</cropSize>
+                <cropPos>${bgMediaCropPos}</cropPos>
+                <path>./resources/custom/${system.name}.webp</path>
+                <opacity>${bgMediaOpacity}</opacity>
+                <visible>${bgMediaCustomVisible}</visible>
+                <scrollFadeIn>true</scrollFadeIn>
+                <zIndex>2</zIndex>
+            </image>
+
+            <video name="backgroundMedia">
+                <pos>${bgMediaPosX} ${bgMediaPosY}</pos>
+                <origin>${bgMediaOriginX} ${bgMediaOriginY}</origin>
+                <cropSize>${bgMediaCropSize}</cropSize>
+                <cropPos>${bgMediaCropPos}</cropPos>
+                <imageType>${bgMediaType}</imageType>
+                <opacity>${bgMediaOpacity}</opacity>
+                <visible>${bgMediaVideoVisible}</visible>
+                <delay>2</delay>
+                <audio>false</audio>
+                <scrollFadeIn>true</scrollFadeIn>
+                <zIndex>1</zIndex>
+            </video>
+        </view>
+
+    </variant>
+
+    <!-- === VARIANT: Text list gamelist === -->
+    <variant name="textlist">
+
+        <view name="gamelist">
+
+            <text name="autoCollectionName, customCollectionName">
+                <pos>${metaLabelX} 0.1334</pos>
+                <size>0.7083 0.0278</size>
+                <origin>${originXflip} 0.5</origin>
+                <fontPath>${fontMeta}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <zIndex>10</zIndex>
+            </text>
+
+            <gamelistinfo name="listInfo">
+                <pos>${contentX} 0.1528</pos>
+                <size>${metaValueW} 0</size>
+                <origin>${originXflip} 1</origin>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <color>${colorTextSubtle}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <zIndex>10</zIndex>
+            </gamelistinfo>
+
+            <textlist name="gameList">
+                <pos>${contentX} ${textlistY}</pos>
+                <size>${textlistW} ${textlistH}</size>
+                <origin>${originXflip} 0</origin>
+                <primaryColor>${colorTextPrimary}</primaryColor>
+                <secondaryColor>${colorTextPrimary}</secondaryColor>
+                <selectedColor>${colorBase}</selectedColor>
+                <selectedSecondaryColor>${colorBase}</selectedSecondaryColor>
+                <selectorColor>00000000</selectorColor>
+                <selectedBackgroundColor>${colorTextPrimary}</selectedBackgroundColor>
+                <selectedBackgroundCornerRadius>0.5</selectedBackgroundCornerRadius>
+                <selectedBackgroundMargins>${listSelectedMargins}</selectedBackgroundMargins>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeList}</fontSize>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <textHorizontalScrolling>true</textHorizontalScrolling>
+                <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+                <indicators>symbols</indicators>
+                <zIndex>10</zIndex>
+            </textlist>
+
+        </view>
+
+    </variant>
+
+    <!-- === Nav Icon === -->
+    <variant name="carousel-carts, carousel-covers, carousel-caps, grid, grid5">
+
+        <view name="gamelist">
+
+            <image name="navLR">
+                <pos>${clockX} 0.05</pos>
+                <size>${navLRSize}</size>
+                <origin>${clockOriginX} 0.5</origin>
+                <path>./resources/images/icons/nav_lr.svg</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>10</zIndex>
+            </image>
+
+        </view>
+
+    </variant>
+
+    <variant name="textlist">
+
+        <view name="gamelist">
+
+            <image name="navDPad">
+                <pos>${clockX} 0.05</pos>
+                <size>${viewTitleIconSize}</size>
+                <origin>${clockOriginX} 0.5</origin>
+                <path>./resources/images/icons/nav_dpad.svg</path>
+                <color>${colorTextPrimary}</color>
+                <zIndex>10</zIndex>
+            </image>
+
+        </view>
+
+    </variant>
+
+    <!-- === VARIANT: Grid / Grid5 === -->
+    <variant name="grid, grid5">
+
+        <view name="gamelist">
+
+            <image name="backgroundMediaStatic">
+                <visible>false</visible>
+            </image>
+            <video name="backgroundMedia">
+                <visible>false</visible>
+            </video>
+            <image name="backgroundMediaCustomPng, backgroundMediaCustomJpg, backgroundMediaCustomWebp">
+                <visible>false</visible>
+            </image>
+
+            <text name="rowOnelabel, rowTwoLabel, rowThreeLabel, rowFourLabel, rowFiveLabel, rowSixLabel, rowSevenLabel, rowEightLabel">
+                <visible>false</visible>
+            </text>
+
+            <text name="rowOneValue_bg, rowOneValue, rowThreeValue, rowFourValue, rowFiveValue, rowEightValue">
+                <visible>false</visible>
+            </text>
+            <datetime name="rowSixValue, rowSevenValue">
+                <visible>false</visible>
+            </datetime>
+
+            <rating name="gameRating">
+                <visible>false</visible>
+            </rating>
+            <badges name="gameStatusBadges">
+                <visible>false</visible>
+            </badges>
+            <badges name="infoBadges">
+                <visible>false</visible>
+            </badges>
+
+            <text name="gridSystemName">
+                <pos>${clockX} 0.1343</pos>
+                <size>${metaLabelW} 0.0278</size>
+
+                <origin>${clockOriginX} 0.5</origin>
+                <metadata>sourceSystemName</metadata>
+                <defaultValue>:space:</defaultValue>
+                <letterCase>uppercase</letterCase>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${clockAlign}</horizontalAlignment>
+                <visible>${gameSystemLabelVisible}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="gameTitle">
+                <pos>${contentX} 0.1343</pos>
+                <size>${metaValueW} 0.0278</size>
+                <origin>${originXflip} 0.5</origin>
+                <metadata>name</metadata>
+                <systemNameSuffix>false</systemNameSuffix>
+                <container>true</container>
+                <containerType>horizontal</containerType>
+                <containerScrollGap>1</containerScrollGap>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="collectionTitleGrouped">
+                <pos>${contentX} 0.1343</pos>
+                <size>${metaValueW} 0.0278</size>
+                <origin>${originXflip} 0.5</origin>
+                <metadata>customCollectionNameGrouped</metadata>
+                <systemNameSuffix>false</systemNameSuffix>
+                <defaultValue>:space:</defaultValue>
+                <container>true</container>
+                <containerType>horizontal</containerType>
+                <containerScrollGap>1</containerScrollGap>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <visible>${collectionsGamelist}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <datetime name="gridReleaseYear">
+                <pos>${metaLabelX} 0.1343</pos>
+                <size>${metaLabelW} 0.0278</size>
+
+                <origin>${originXflip} 0.5</origin>
+                <metadata>releasedate</metadata>
+                <format>%Y</format>
+                <defaultValue>:space:</defaultValue>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <zIndex>10</zIndex>
+            </datetime>
+
+            <text name="gameSystemLabel">
+                <visible>false</visible>
+            </text>
+
+            <grid name="gameGrid">
+                <pos>${metaLabelX} ${textlistY}</pos>
+                <size>${gridW} ${textlistH}</size>
+                <origin>${originXflip} 0</origin>
+                <imageType>${bgMediaType}</imageType>
+                <imageFit>cover</imageFit>
+                <imageColor>${colorImageTint}</imageColor>
+                <imageSaturation>${mediaImageSaturation}</imageSaturation>
+                <imageInterpolation>${gridImageInterpolation}</imageInterpolation>
+                <imageCornerRadius>0.003125</imageCornerRadius>
+                <itemSize>${gridItemW} ${gridItemH}</itemSize>
+                <itemScale>1.0</itemScale>
+                <itemSpacing>${gridItemSpacing}</itemSpacing>
+                <fractionalRows>true</fractionalRows>
+                <imageRelativeScale>${gridImageRelativeScale}</imageRelativeScale>
+                <selectorColor>FFFFFFFF</selectorColor>
+                <selectorCornerRadius>${cornerRadiusMedium}</selectorCornerRadius>
+                <selectorRelativeScale>1.0</selectorRelativeScale>
+                <selectorLayer>bottom</selectorLayer>
+                <textBackgroundColor>${gridTextBgColor}</textBackgroundColor>
+                <unfocusedItemDimming>0.30</unfocusedItemDimming>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${fontSizeMeta}</fontSize>
+                <letterCase>uppercase</letterCase>
+                <textColor>${colorTextPrimary}</textColor>
+                <textSelectedColor>${colorBase}</textSelectedColor>
+                <zIndex>10</zIndex>
+            </grid>
+
+        </view>
+
+    </variant>
+
+    <!-- === VARIANT: Grid5 — 5-column override === -->
+    <variant name="grid5">
+
+        <view name="gamelist">
+
+            <grid name="gameGrid">
+                <itemSize>${grid5ItemW} ${grid5ItemH}</itemSize>
+            </grid>
+
+        </view>
+
+    </variant>
+
+    <!-- === VARIANT: Gallery (Fit / Fill) === -->
+    <variant name="gallery-fit, gallery-fill">
+
+        <colorScheme name="noBackground">
+            <variables>
+                <galleryCoverVisible>true</galleryCoverVisible>
+            </variables>
+        </colorScheme>
+
+        <view name="gamelist">
+
+            <image name="backgroundOverlay">
+                <visible>false</visible>
+            </image>
+
+            <image name="backgroundMediaCustomPng, backgroundMediaCustomJpg, backgroundMediaCustomWebp">
+                <visible>false</visible>
+            </image>
+
+            <image name="viewTitleIcon">
+                <visible>false</visible>
+            </image>
+            <text name="sectionTitle">
+                <visible>false</visible>
+            </text>
+            <text name="collectionSectionTitle">
+                <visible>false</visible>
+            </text>
+
+            <video name="backgroundMedia">
+                <audio>true</audio>
+                <iterationCount>1</iterationCount>
+                <onIterationsDone>image</onIterationsDone>
+            </video>
+
+            <image name="galleryTopBar">
+                <pos>0 0</pos>
+                <size>1 0.10</size>
+                <path>./resources/images/white.png</path>
+                <color>${colorBarOverlay}</color>
+                <zIndex>8</zIndex>
+            </image>
+
+            <image name="help-bg">
+                <path>./resources/images/white.png</path>
+                <color>${colorBarOverlay}</color>
+            </image>
+
+            <text name="gallerySystemName">
+                <pos>${clockX} 0.05</pos>
+                <size>${metaLabelW} ${sectionTitleH}</size>
+
+                <origin>${clockOriginX} 0.5</origin>
+                <metadata>sourceSystemName</metadata>
+                <defaultValue>:space:</defaultValue>
+                <letterCase>uppercase</letterCase>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${clockAlign}</horizontalAlignment>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="galleryGameTitle">
+                <pos>${contentX} 0.05</pos>
+                <size>${metaValueW} ${sectionTitleH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <metadata>name</metadata>
+                <systemNameSuffix>false</systemNameSuffix>
+                <container>true</container>
+                <containerType>horizontal</containerType>
+                <containerScrollGap>1</containerScrollGap>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <zIndex>10</zIndex>
+            </text>
+
+            <text name="collectionTitleGrouped">
+                <pos>${contentX} 0.05</pos>
+                <size>${metaValueW} ${sectionTitleH}</size>
+                <origin>${originXflip} 0.5</origin>
+                <metadata>customCollectionNameGrouped</metadata>
+                <systemNameSuffix>false</systemNameSuffix>
+                <defaultValue>:space:</defaultValue>
+                <container>true</container>
+                <containerType>horizontal</containerType>
+                <containerScrollGap>1</containerScrollGap>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <visible>${collectionsGamelist}</visible>
+                <zIndex>10</zIndex>
+            </text>
+
+            <datetime name="galleryReleaseYear">
+                <pos>${metaLabelX} 0.05</pos>
+                <size>${metaLabelW} ${sectionTitleH}</size>
+
+                <origin>${originXflip} 0.5</origin>
+                <metadata>releasedate</metadata>
+                <format>%Y</format>
+                <defaultValue>:space:</defaultValue>
+                <fontPath>${fontPrimary}</fontPath>
+                <fontSize>${clockFontSize}</fontSize>
+                <color>${colorTextPrimary}</color>
+                <horizontalAlignment>${textAlign}</horizontalAlignment>
+                <zIndex>10</zIndex>
+            </datetime>
+
+            <badges name="gameStatusBadges">
+                <pos>${galleryStatusBadgesX} 0.5</pos>
+                <size>${statusBadgesW} 0.03</size>
+                <origin>0.5 0.5</origin>
+                <rotation>90</rotation>
+                <horizontalAlignment>center</horizontalAlignment>
+                <direction>row</direction>
+                <lines>1</lines>
+                <itemsPerLine>5</itemsPerLine>
+                <itemMargin>0.004167 0.002083</itemMargin>
+                <slots>collection, favorite, completed, folder</slots>
+                <customBadgeIcon badge="collection">./resources/images/badges/collection_icon_rotated.svg</customBadgeIcon>
+                <customBadgeIcon badge="favorite">./resources/images/badges/Favorite_icon_rotated.svg</customBadgeIcon>
+                <customBadgeIcon badge="completed">./resources/images/badges/Completed_icon_rotated.svg</customBadgeIcon>
+                <customBadgeIcon badge="folder">./resources/images/badges/Folder_icon_rotated.svg</customBadgeIcon>
+                <visible>${standardGamelist}</visible>
+                <zIndex>10</zIndex>
+            </badges>
+
+            <carousel name="galleryCarousel">
+                <pos>0.5 ${galleryCarouselY}</pos>
+                <size>1 1</size>
+                <origin>0.5 0.5</origin>
+                <type>horizontal</type>
+                <maxItemCount>1</maxItemCount>
+                <itemTransitions>instant</itemTransitions>
+                <itemSize>${galleryCoverSize}</itemSize>
+                <itemVerticalAlignment>center</itemVerticalAlignment>
+                <imageType>cover, physicalmedia</imageType>
+                <imageFit>contain</imageFit>
+                <defaultImage>${gameCarouselDefaultImage}</defaultImage>
+                <defaultFolderImage>${gameCarouselFolderImage}</defaultFolderImage>
+                <unfocusedItemDimming>0</unfocusedItemDimming>
+                <fastScrolling>true</fastScrolling>
+                <fontPath>${fontPrimary}</fontPath>
+                <textColor>${colorTextPrimary}</textColor>
+                <color>${colorTransparent}</color>
+                <zIndex>0.5</zIndex>
+            </carousel>
+
+            <image name="galleryCover">
+                <pos>${contentX} 0.5</pos>
+                <origin>${originXflip} 0.5</origin>
+                <maxSize>${galleryCoverSquareW} ${galleryCoverSquareH}</maxSize>
+                <imageType>cover, physicalmedia</imageType>
+                <default>${gameCarouselDefaultImage}</default>
+                <visible>${galleryCoverVisible}</visible>
+                <scrollFadeIn>true</scrollFadeIn>
+                <zIndex>0.5</zIndex>
+            </image>
+
+        </view>
+
+    </variant>
+
+    <variant name="gallery-fit">
+
+        <view name="system, gamelist">
+
+            <image name="backgroundMediaStatic">
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>1 1</maxSize>
+            </image>
+            <video name="backgroundMedia">
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>1 1</maxSize>
+            </video>
+
+        </view>
+
+    </variant>
+
+    <!-- === ASPECT RATIO: 8:7 overrides (element-level) === -->
+    <aspectRatio name="8:7">
+
+        <view name="gamelist">
+
+            <text name="sectionTitle">
+                <size>0.60 ${sectionTitleH}</size>
+            </text>
+
+            <text name="collectionSectionTitle">
+                <size>0.60 ${sectionTitleH}</size>
+            </text>
+
+        </view>
+
+    </aspectRatio>
+
+</theme>
