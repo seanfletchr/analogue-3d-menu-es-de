@@ -95,7 +95,22 @@
 
             <systemCarouselH>0.312</systemCarouselH>
             <systemCarouselBgH>0.3676</systemCarouselBgH>
+            <systemCarouselItemW>0.2199</systemCarouselItemW>
             <systemCarouselItemH>0.1935</systemCarouselItemH>
+            <systemNameW>0.2199</systemNameW>
+            <systemCarouselMaxItems>3.834</systemCarouselMaxItems>
+            <systemCarouselCardX>0.37405</systemCarouselCardX>
+            <systemCarouselHOffset>-0.12595</systemCarouselHOffset>
+            <systemCarouselTileXn5>-0.9301</systemCarouselTileXn5>
+            <systemCarouselTileXn4>-0.6693</systemCarouselTileXn4>
+            <systemCarouselTileXn3>-0.4084</systemCarouselTileXn3>
+            <systemCarouselTileXn2>-0.1476</systemCarouselTileXn2>
+            <systemCarouselTileXn1>0.1132</systemCarouselTileXn1>
+            <systemCarouselTileXp1>0.6349</systemCarouselTileXp1>
+            <systemCarouselTileXp2>0.8957</systemCarouselTileXp2>
+            <systemCarouselTileXp3>1.1565</systemCarouselTileXp3>
+            <systemCarouselTileXp4>1.4174</systemCarouselTileXp4>
+            <systemCarouselTileXp5>1.6782</systemCarouselTileXp5>
 
             <gameCarouselH>0.1944</gameCarouselH>
             <gameCarouselItemW>0.10940</gameCarouselItemW>
@@ -112,8 +127,12 @@
             <statusBadgesW>0.0880</statusBadgesW>
             <galleryStatusBadgesX>0.0390</galleryStatusBadgesX>
             <galleryCoverSize>0.3125 0.5</galleryCoverSize>
-            <galleryCoverSquareW>0.22</galleryCoverSquareW>
-            <galleryCoverSquareH>0.352</galleryCoverSquareH>
+            <galleryCoverX>${contentX}</galleryCoverX>
+            <galleryCoverY>0.8148</galleryCoverY>
+            <galleryCoverOriginX>0</galleryCoverOriginX>
+            <galleryCoverOriginY>1</galleryCoverOriginY>
+            <galleryCoverW>0.4890</galleryCoverW>
+            <galleryCoverH>0.6370</galleryCoverH>
             <carouselTileXn5>-0.4210</carouselTileXn5>
             <carouselTileXn4>-0.2821</carouselTileXn4>
             <carouselTileXn3>-0.1432</carouselTileXn3>
@@ -204,8 +223,12 @@
             <statusBadgesW>0.1000</statusBadgesW>
             <galleryStatusBadgesX>0.0375</galleryStatusBadgesX>
             <galleryCoverSize>0.375 0.5</galleryCoverSize>
-            <galleryCoverSquareW>0.345</galleryCoverSquareW>
-            <galleryCoverSquareH>0.46</galleryCoverSquareH>
+            <galleryCoverX>${contentX}</galleryCoverX>
+            <galleryCoverY>0.8148</galleryCoverY>
+            <galleryCoverOriginX>0</galleryCoverOriginX>
+            <galleryCoverOriginY>1</galleryCoverOriginY>
+            <galleryCoverW>0.5896</galleryCoverW>
+            <galleryCoverH>0.6370</galleryCoverH>
 
             <gameCarouselItemW>0.13125</gameCarouselItemW>
             <gameCarouselCapsItemW>0.14402</gameCarouselCapsItemW>
@@ -318,8 +341,12 @@
             <statusBadgesW>0.1134</statusBadgesW>
             <galleryStatusBadgesX>0.0390</galleryStatusBadgesX>
             <galleryCoverSize>0.4355 0.5</galleryCoverSize>
-            <galleryCoverSquareW>0.3408</galleryCoverSquareW>
-            <galleryCoverSquareH>0.3913</galleryCoverSquareH>
+            <galleryCoverX>${contentX}</galleryCoverX>
+            <galleryCoverY>0.8148</galleryCoverY>
+            <galleryCoverOriginX>0</galleryCoverOriginX>
+            <galleryCoverOriginY>1</galleryCoverOriginY>
+            <galleryCoverW>0.6847</galleryCoverW>
+            <galleryCoverH>0.6370</galleryCoverH>
             <gameCarouselH>0.375</gameCarouselH>
             <gameCarouselItemW>0.276</gameCarouselItemW>
             <gameCarouselItemH>0.317</gameCarouselItemH>
@@ -425,7 +452,7 @@
             <systemCarouselBgH>0.527</systemCarouselBgH>
             <systemNameY>0.208</systemNameY>
             <systemNameW>0.4486</systemNameW>
-            <systemNameFontSize>0.054</systemNameFontSize>
+            <systemNameFontSize>0.0465</systemNameFontSize>
             <systemCarouselY>0.394</systemCarouselY>
             <systemCarouselH>0.286</systemCarouselH>
             <systemCarouselItemW>0.4486</systemCarouselItemW>
@@ -451,8 +478,12 @@
             <statusBadgesW>0.1278</statusBadgesW>
             <galleryStatusBadgesX>0.0448</galleryStatusBadgesX>
             <galleryCoverSize>0.5 0.5</galleryCoverSize>
-            <galleryCoverSquareW>0.3358</galleryCoverSquareW>
-            <galleryCoverSquareH>0.3358</galleryCoverSquareH>
+            <galleryCoverX>0.5</galleryCoverX>
+            <galleryCoverY>0.8148</galleryCoverY>
+            <galleryCoverOriginX>0.5</galleryCoverOriginX>
+            <galleryCoverOriginY>1</galleryCoverOriginY>
+            <galleryCoverW>0.6741</galleryCoverW>
+            <galleryCoverH>0.6370</galleryCoverH>
             <gameCarouselH>0.375</gameCarouselH>
             <gameCarouselItemW>0.3167</gameCarouselItemW>
             <gameCarouselItemH>0.317</gameCarouselItemH>
@@ -576,8 +607,12 @@
             <statusBadgesW>0.0907</statusBadgesW>
             <galleryStatusBadgesX>0.0333</galleryStatusBadgesX>
             <galleryCoverSize>0.3333 0.5</galleryCoverSize>
-            <galleryCoverSquareW>0.345</galleryCoverSquareW>
-            <galleryCoverSquareH>0.5175</galleryCoverSquareH>
+            <galleryCoverX>${contentX}</galleryCoverX>
+            <galleryCoverY>0.8148</galleryCoverY>
+            <galleryCoverOriginX>0</galleryCoverOriginX>
+            <galleryCoverOriginY>1</galleryCoverOriginY>
+            <galleryCoverW>0.5241</galleryCoverW>
+            <galleryCoverH>0.6370</galleryCoverH>
             <metaRatingBgW>0.0838</metaRatingBgW>
             <carouselTileXn5>-0.4667</carouselTileXn5>
             <carouselTileXn4>-0.3186</carouselTileXn4>

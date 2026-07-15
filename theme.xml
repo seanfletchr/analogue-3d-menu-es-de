@@ -165,8 +165,8 @@ ported by:        Sean Fletcher
         <galleryCarouselY>2.0</galleryCarouselY>
         <galleryCoverSize>0.2813 0.5</galleryCoverSize>
         <galleryCoverVisible>false</galleryCoverVisible>
-        <galleryCoverSquareW>0.22</galleryCoverSquareW>
-        <galleryCoverSquareH>0.39111</galleryCoverSquareH>
+        <galleryCoverW>0.4401</galleryCoverW>
+        <galleryCoverH>0.6370</galleryCoverH>
         <statusBadgesW>0.0792</statusBadgesW>
         <colorTextPrimary>FFFFFFFF</colorTextPrimary>
         <colorTextMuted>FFFFFFCB</colorTextMuted>
@@ -187,6 +187,10 @@ ported by:        Sean Fletcher
 
         <textAlign>left</textAlign>
         <originXflip>0</originXflip>
+        <galleryCoverX>${contentX}</galleryCoverX>
+        <galleryCoverY>0.8148</galleryCoverY>
+        <galleryCoverOriginX>${originXflip}</galleryCoverOriginX>
+        <galleryCoverOriginY>1</galleryCoverOriginY>
         <clockX>0.973</clockX>
         <clockOriginX>1</clockOriginX>
         <clockAlign>right</clockAlign>
@@ -1610,9 +1614,9 @@ ported by:        Sean Fletcher
             </carousel>
 
             <image name="galleryCover">
-                <pos>${contentX} 0.5</pos>
-                <origin>${originXflip} 0.5</origin>
-                <maxSize>${galleryCoverSquareW} ${galleryCoverSquareH}</maxSize>
+                <pos>${galleryCoverX} ${galleryCoverY}</pos>
+                <origin>${galleryCoverOriginX} ${galleryCoverOriginY}</origin>
+                <maxSize>${galleryCoverW} ${galleryCoverH}</maxSize>
                 <imageType>cover, physicalmedia</imageType>
                 <default>${gameCarouselDefaultImage}</default>
                 <visible>${galleryCoverVisible}</visible>
