@@ -57,9 +57,8 @@ Fonts, artwork, and asset attributions are in [CREDITS.md](CREDITS.md).
 
 ## Licensing
 
-No overall license is applied — this is an unofficial fan tribute, and I make no
+No overall license is applied. This is an unofficial fan tribute, and I make no
 ownership claim over Analogue's designs or the community artwork this builds on.
-Bundled components keep their own licenses (fonts: SIL OFL 1.1; system metadata:
-CC BY-NC-SA). See [CREDITS.md](CREDITS.md) for attribution.
+Bundled components keep their own licenses. See [CREDITS.md](CREDITS.md) for attribution.
 
 Created by **Sean Fletcher**.
