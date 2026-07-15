@@ -55,11 +55,11 @@ Japanese, Korean, Chinese (Simplified/Traditional), Arabic, Russian, Serbian.
 
 Fonts, artwork, and asset attributions are in [CREDITS.md](CREDITS.md).
 
-## License
+## Licensing
 
-The theme's original artwork, icons, and XML layout are licensed under
-**[CC BY-NC-SA 4.0](LICENSE)**. Bundled components keep their own licenses;
-fonts under SIL OFL 1.1, system metadata under CC BY-NC-SA. See [LICENSE](LICENSE)
-and [CREDITS.md](CREDITS.md) for details.
+No overall license is applied — this is an unofficial fan tribute, and I make no
+ownership claim over Analogue's designs or the community artwork this builds on.
+Bundled components keep their own licenses (fonts: SIL OFL 1.1; system metadata:
+CC BY-NC-SA). See [CREDITS.md](CREDITS.md) for attribution.
 
 Created by **Sean Fletcher**.
