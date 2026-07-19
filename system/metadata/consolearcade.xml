@@ -15,7 +15,7 @@
         <systemColorPalette3>FF0000</systemColorPalette3>
         <systemColorPalette4>303030</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
-        <systemCarouselDefaultImage>./system/console-isometric/default-folder.png</systemCarouselDefaultImage>
+        <systemCarouselDefaultImage>./system/console-isometric/arcade-systems.png</systemCarouselDefaultImage>
         <gameSystemLabelVisible>false</gameSystemLabelVisible>
     </variables>
     <language name="ar_SA">

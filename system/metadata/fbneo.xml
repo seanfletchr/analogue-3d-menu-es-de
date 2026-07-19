@@ -19,7 +19,7 @@ The reason for the separation of the older branch, FB Alpha, and new spin-off br
         <systemColorPalette3>231F20</systemColorPalette3>
         <systemColorPalette4>FFFFFF</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
-        <systemCarouselDefaultImage>./system/console-isometric/default-emulator.png</systemCarouselDefaultImage>
+        <systemCarouselDefaultImage>./system/console-isometric/arcade-systems.png</systemCarouselDefaultImage>
         <gameSystemLabelVisible>false</gameSystemLabelVisible>
         <gridImageInterpolation>nearest</gridImageInterpolation>
     </variables>

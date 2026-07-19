@@ -16,7 +16,7 @@
         <systemColorPalette4>D8D3BD</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
         <gameCarouselDefaultImage>./system/media/disc.png</gameCarouselDefaultImage>
-        <systemCarouselDefaultImage>./system/console-isometric/default-emulator.png</systemCarouselDefaultImage>
+        <systemCarouselDefaultImage>./system/console-isometric/arcade-systems.png</systemCarouselDefaultImage>
         <gameSystemLabelVisible>false</gameSystemLabelVisible>
     </variables>
     <language name="ar_SA">

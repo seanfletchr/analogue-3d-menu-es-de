@@ -10,7 +10,7 @@
         <systemCoverSize>1-1</systemCoverSize>
         <systemCoverSizeType>square</systemCoverSizeType>
         <systemCartSize>1-1</systemCartSize>
-        <systemCarouselDefaultImage>./system/console-isometric/now-playing.png</systemCarouselDefaultImage>
+        <systemCarouselDefaultImage>./system/console-isometric/now playing.png</systemCarouselDefaultImage>
         <!-- Aggregate collection (games from many systems): show the source
              system short name, like the auto collections and custom-collections. -->
         <gameSystemLabelVisible>true</gameSystemLabelVisible>
