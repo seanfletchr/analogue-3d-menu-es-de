@@ -2,7 +2,7 @@
 
 **Analogue 3D OS Menu** is an ES-DE port of Analogue's 3D OS interface, by Sean Fletcher.
 
-Analogue is not affiliated with this theme and does not endorse it.
+Analogue is not affiliated in any way and does not endorse it.
 
 ## Fonts
 
@@ -21,11 +21,13 @@ fonts. The licenses for those sources are bundled in
 
 ## Artwork & Assets
 
-- **Isometric console images**: most are the work of Reddit user
-  **u/spiritualized1997**, with additional assets by **u/kiefeater** and
-  **Sean Fletcher**.
-- **Game cartridge icons**: based on Analogue's N64 cartridge design, with
-  additional assets drawn by **Sean Fletcher**.
+- Most isometric console images are the incredible work of
+  **[spiritualized1997](https://github.com/spiritualized1997/openFPGA-Platform-Art-Set)**.
+  
+- Additional Systems by **[u/kiefeater](https://www.reddit.com/r/MiyooMini/comments/1czvnqz/true_png_images_of_analogue_icons_by/):** ScummVM, Nintendo Pokémon Mini, Miyoo Mini (Ports), Nintendo DS, Nintendo Game and Watch (LCD Games).
+- Additional assets by **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road Chicken (Android Games),Folder, Apple TV Remote (Kodi), Tiger Game.com, Panic Playdate, Pico-8, Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Steam Deck, Steam Machine, Playstation 2, Platstation 3, Playstation Vita, Playstation 4, Xbox, Xbox 360, Xbox One, 8bitdo Arcade Stick (Various Arcade systems).
+
+Game cartridge icons are based on Analogue's N64 cartridge design, with cartridges for additional systems drawn by **Sean Fletcher**.
 
 ## System Metadata
 
