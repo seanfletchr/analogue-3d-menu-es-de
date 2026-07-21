@@ -216,14 +216,14 @@ ported by:        Sean Fletcher
         <variables>
             <fontSizeUI>0.0403</fontSizeUI>
             <clockFontSize>0.0302</clockFontSize>
-            <fontSizeList>0.0345</fontSizeList>
+            <fontSizeList>0.0340</fontSizeList>
         </variables>
     </fontSize>
     <fontSize name="large">
         <variables>
             <fontSizeUI>0.0444</fontSizeUI>
             <clockFontSize>0.0333</clockFontSize>
-            <fontSizeList>0.045</fontSizeList>
+            <fontSizeList>0.0433</fontSizeList>
         </variables>
     </fontSize>
 
