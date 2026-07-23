@@ -21,11 +21,12 @@ fonts. The licenses for those sources are bundled in
 
 ## Artwork & Assets
 
-- Most isometric console images are the incredible work of
+- Most isometric system assets are the incredible work of
   **[spiritualized1997](https://github.com/spiritualized1997/openFPGA-Platform-Art-Set)**.
   
-- Additional Systems by **[u/kiefeater](https://www.reddit.com/r/MiyooMini/comments/1czvnqz/true_png_images_of_analogue_icons_by/):** ScummVM, Nintendo Pokémon Mini, Miyoo Mini (Ports), Nintendo DS, Nintendo Game and Watch (LCD Games).
-- Additional assets by **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road (Android Games), Folder, Apple TV Remote (Kodi), Tiger Game.com, Panic Playdate, Pico-8, Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Valve Steam Deck, Valve Steam Machine, Playstation 2, Platstation 3, Playstation Vita, Playstation 4, Xbox, Xbox 360, Xbox One, 8bitdo Arcade Stick (Various Arcade systems).
+- Additional system assets created by **[u/kiefeater](https://www.reddit.com/r/MiyooMini/comments/1czvnqz/true_png_images_of_analogue_icons_by/):** ScummVM, Nintendo Pokémon Mini, Miyoo Mini (Ports), Nintendo DS, Nintendo Game and Watch (LCD Games).
+
+- Additional system assets by **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road (Android Games), Folder, Apple TV Remote (Kodi), Arduboy, Panic Playdate, Pico-8, HTC Dream (Android), Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Valve Steam Deck, Valve Steam Machine, Sony Playstation 2, Sony Platstation 3, Sony Playstation Vita, Sony Playstation 4, Microsoft Xbox, Microsoft Xbox 360, Microsoft Xbox One, 8bitdo Arcade Stick (Various Arcade systems), Tiger Game.com.
 
 Game cartridge icons are based on Analogue's N64 cartridge design, with cartridges for additional systems drawn by **Sean Fletcher**.
 
