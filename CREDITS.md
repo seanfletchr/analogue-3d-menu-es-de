@@ -12,7 +12,7 @@ Analogue is not affiliated in any way and does not endorse it.
 | [Fusion Pixel 12px Monospaced](https://fusion-pixel-font.takwolf.com) | Metadata / CJK text (`fontMeta`, JP/KO/zh-Hans/zh-Hant) | TakWolf | [SIL Open Font License 1.1](resources/fonts/LICENSE/OFL.txt) |
 
 Fusion Pixel Font is an open-source Pan-CJK pixel font fused from several source
-fonts. The licenses for those sources are bundled in
+fonts. Several latin glyphs have been modified specifically for this theme. The licenses for those sources are bundled in
 [`resources/fonts/LICENSE/`](resources/fonts/LICENSE):
 
 - **Ark Pixel**: TakWolf, SIL OFL 1.1 (`ark-pixel.txt`)
@@ -24,9 +24,13 @@ fonts. The licenses for those sources are bundled in
 - Most isometric system assets are the incredible work of
   **[spiritualized1997](https://github.com/spiritualized1997/openFPGA-Platform-Art-Set)**.
   
-- Additional system assets created by **[u/kiefeater](https://www.reddit.com/r/MiyooMini/comments/1czvnqz/true_png_images_of_analogue_icons_by/):** ScummVM, Nintendo Pokémon Mini, Miyoo Mini (Ports), Nintendo DS, Nintendo Game and Watch (LCD Games).
+- **[u/kiefeater](https://www.reddit.com/r/MiyooMini/comments/1czvnqz/true_png_images_of_analogue_icons_by/):** ScummVM, Miyoo Mini (Ports), Nintendo DS
 
-- Additional system assets by **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road (Android Games), Folder, Apple TV Remote (Kodi), Arduboy, Panic Playdate, Pico-8, HTC Dream (Android), Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Valve Steam Deck, Valve Steam Machine, Sony Playstation 2, Sony Platstation 3, Sony Playstation Vita, Sony Playstation 4, Microsoft Xbox, Microsoft Xbox 360, Microsoft Xbox One, 8bitdo Arcade Stick (Various Arcade systems), Tiger Game.com.
+- **[agg23](https://github.com/agg23/fpga-gameandwatch/tree/master):** Nintendo Pokémon Mini, Nintendo Game and Watch (LCD Games).
+
+- **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road (Android Games), Folder, Apple TV Remote (Kodi), Arduboy, Panic Playdate, Pico-8, HTC Dream (Android), Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Valve Steam Deck, Valve Steam Machine, Sony Playstation 2, Sony Platstation 3, Sony Playstation Vita, Sony Playstation 4, Microsoft Xbox, Microsoft Xbox 360, Microsoft Xbox One, 8bitdo Arcade Stick (Various Arcade systems), Palm Pilot, Tiger Game.com.
+
+System images created by Sean Fletcher may be downsampled to 150x82 for their original dimensions, and used freely.
 
 Game cartridge icons are based on Analogue's N64 cartridge design, with cartridges for additional systems drawn by **Sean Fletcher**.
 
