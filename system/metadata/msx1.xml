@@ -18,7 +18,7 @@ MSX systems were popular in Japan and several other countries. Sony was the prim
         <systemColorPalette4>DEE0E0</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
         <gameCarouselDefaultImage>./system/media/floppy-3.png</gameCarouselDefaultImage>
-        <systemCarouselDefaultImage>./system/console-isometric/default-computer.png</systemCarouselDefaultImage>
+        <systemCarouselDefaultImage>./system/console-isometric/msx.png</systemCarouselDefaultImage>
         <gameSystemLabelVisible>false</gameSystemLabelVisible>
         <gridImageInterpolation>nearest</gridImageInterpolation>
     </variables>

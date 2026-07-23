@@ -25,7 +25,7 @@ fonts. The licenses for those sources are bundled in
   **[spiritualized1997](https://github.com/spiritualized1997/openFPGA-Platform-Art-Set)**.
   
 - Additional Systems by **[u/kiefeater](https://www.reddit.com/r/MiyooMini/comments/1czvnqz/true_png_images_of_analogue_icons_by/):** ScummVM, Nintendo Pokémon Mini, Miyoo Mini (Ports), Nintendo DS, Nintendo Game and Watch (LCD Games).
-- Additional assets by **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road Chicken (Android Games),Folder, Apple TV Remote (Kodi), Tiger Game.com, Panic Playdate, Pico-8, Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Steam Deck, Steam Machine, Playstation 2, Platstation 3, Playstation Vita, Playstation 4, Xbox, Xbox 360, Xbox One, 8bitdo Arcade Stick (Various Arcade systems).
+- Additional assets by **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road (Android Games), Folder, Apple TV Remote (Kodi), Tiger Game.com, Panic Playdate, Pico-8, Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Valve Steam Deck, Valve Steam Machine, Playstation 2, Platstation 3, Playstation Vita, Playstation 4, Xbox, Xbox 360, Xbox One, 8bitdo Arcade Stick (Various Arcade systems).
 
 Game cartridge icons are based on Analogue's N64 cartridge design, with cartridges for additional systems drawn by **Sean Fletcher**.
 
