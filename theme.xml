@@ -159,6 +159,8 @@ ported by:        Sean Fletcher
         <carouselTileXp3>0.7432</carouselTileXp3>
         <carouselTileXp4>0.8682</carouselTileXp4>
         <carouselTileXp5>0.9932</carouselTileXp5>
+        <carouselTileP6Visible>false</carouselTileP6Visible>
+        <carouselTileXp6>1.1</carouselTileXp6>
         <gameCarouselY>0.3111</gameCarouselY>
         <gameTitleY>0.5111</gameTitleY>
         <carouselSystemNameY>0.1898</carouselSystemNameY>
@@ -739,6 +741,14 @@ ported by:        Sean Fletcher
                 <visible>${carouselTilePExtendedVisible}</visible>
                 <zIndex>7</zIndex>
             </image>
+            <image name="carouselTileP6">
+                <pos>${carouselTileXp6} ${gameCarouselY}</pos>
+                <size>0 ${carouselCardBgH}</size>
+                <origin>0.5 0.5</origin>
+                <path>${gameCarouselTileUnselected}</path>
+                <visible>${carouselTileP6Visible}</visible>
+                <zIndex>7</zIndex>
+            </image>
 
             <carousel name="gameCarousel">
                 <pos>0.5 ${gameCarouselY}</pos>
@@ -1142,6 +1152,7 @@ ported by:        Sean Fletcher
             <image name="carouselTileP3"><visible>false</visible></image>
             <image name="carouselTileP4"><visible>false</visible></image>
             <image name="carouselTileP5"><visible>false</visible></image>
+            <image name="carouselTileP6"><visible>false</visible></image>
         </view>
     </variant>
 

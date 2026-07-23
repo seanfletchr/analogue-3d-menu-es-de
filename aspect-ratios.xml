@@ -656,4 +656,116 @@
 
     </aspectRatio>
 
+    <aspectRatio name="19.5:9">
+
+        <!-- === 19.5:9 (2340×1080) === -->
+
+        <variables>
+
+            <!-- === 8-COLUMN GRID (2340px wide) === -->
+            <metaLabelX>0.0231</metaLabelX>
+            <metaLabelW>0.2375</metaLabelW>
+            <contentX>0.2619</contentX>
+            <metaValueW>0.4763</metaValueW>
+            <clockX>0.9769</clockX>
+            <contentXBadge>0.2644</contentXBadge>
+            <metaRatingX>0.2636</metaRatingX>
+            <metaRatingBgW>0.0596</metaRatingBgW>
+            <textlistW>0.4763</textlistW>
+
+            <viewTitleIconSize>0.0154 0</viewTitleIconSize>
+            <helpsysEntrySpacing>0.0201</helpsysEntrySpacing>
+            <helpsysIconTextSpacing>0.0068</helpsysIconTextSpacing>
+            <sysStatusEntrySpacing>0.0068</sysStatusEntrySpacing>
+            <badgeItemMargin>0.001709 0.002083</badgeItemMargin>
+            <gamelistSectionTitleX>0.2870</gamelistSectionTitleX>
+            <galleryStatusBadgesX>0.0288</galleryStatusBadgesX>
+
+            <!-- === SYSTEM CAROUSEL === -->
+            <systemCarouselItemW>0.1624</systemCarouselItemW>
+            <systemNameW>0.1624</systemNameW>
+            <systemCarouselMaxItems>5.192</systemCarouselMaxItems>
+            <systemCarouselCardX>0.3430</systemCarouselCardX>
+            <systemCarouselHOffset>-0.1570</systemCarouselHOffset>
+            <systemCarouselTileXn5>-0.6200</systemCarouselTileXn5>
+            <systemCarouselTileXn4>-0.4274</systemCarouselTileXn4>
+            <systemCarouselTileXn3>-0.2348</systemCarouselTileXn3>
+            <systemCarouselTileXn2>-0.0422</systemCarouselTileXn2>
+            <systemCarouselTileXn1>0.1504</systemCarouselTileXn1>
+            <systemCarouselTileXp1>0.5356</systemCarouselTileXp1>
+            <systemCarouselTileXp2>0.7282</systemCarouselTileXp2>
+            <systemCarouselTileXp3>0.9208</systemCarouselTileXp3>
+            <systemCarouselTileXp4>1.1134</systemCarouselTileXp4>
+            <systemCarouselTileXp5>1.3060</systemCarouselTileXp5>
+
+            <!-- === GAME CAROUSEL === -->
+            <gameCarouselItemW>0.0808</gameCarouselItemW>
+            <carouselCardX>0.3067</carouselCardX>
+            <gameCarouselHOffset>-0.1933</gameCarouselHOffset>
+            <gameCarouselMaxItems>9.75</gameCarouselMaxItems>
+            <gameCarouselSelectedMargins>.0405 .0405</gameCarouselSelectedMargins>
+            <statusBadgesX>0.2447</statusBadgesX>
+            <statusBadgesW>0.0650</statusBadgesW>
+            <carouselTileXn5>-0.2467</carouselTileXn5>
+            <carouselTileXn4>-0.1441</carouselTileXn4>
+            <carouselTileXn3>-0.0415</carouselTileXn3>
+            <carouselTileXn2>0.0610</carouselTileXn2>
+            <carouselTileXn1>0.1636</carouselTileXn1>
+            <carouselTileXp1>0.4498</carouselTileXp1>
+            <carouselTileXp2>0.5524</carouselTileXp2>
+            <carouselTileXp3>0.6549</carouselTileXp3>
+            <carouselTileXp4>0.7575</carouselTileXp4>
+            <carouselTileXp5>0.8601</carouselTileXp5>
+            <carouselTileXp6>0.9626</carouselTileXp6>
+            <carouselTileP6Visible>true</carouselTileP6Visible>
+
+            <gameCarouselCapsItemW>0.0886</gameCarouselCapsItemW>
+            <gameCarouselCapsItemH>0.19203</gameCarouselCapsItemH>
+            <gameCarouselCapsCornerRadius>0.0042735</gameCarouselCapsCornerRadius>
+
+            <!-- === GALLERY === -->
+            <galleryCoverSize>0.2308 0.5</galleryCoverSize>
+            <galleryCoverX>${contentX}</galleryCoverX>
+            <galleryCoverY>0.8148</galleryCoverY>
+            <galleryCoverOriginX>0</galleryCoverOriginX>
+            <galleryCoverOriginY>1</galleryCoverOriginY>
+            <galleryCoverW>0.3611</galleryCoverW>
+            <galleryCoverH>0.6370</galleryCoverH>
+
+            <!-- === GRID === -->
+            <gridW>0.9538</gridW>
+
+            <gridItemW>0.1589</gridItemW>
+            <gridItemH4-3>0.2583</gridItemH4-3>
+            <gridItemH16-9>0.1938</gridItemH16-9>
+            <gridItemH3-2>0.2296</gridItemH3-2>
+            <gridItemH10-9>0.3100</gridItemH10-9>
+            <gridItemH10-7>0.2411</gridItemH10-7>
+            <gridItemH8-7>0.3014</gridItemH8-7>
+            <gridItemH20-19>0.3272</gridItemH20-19>
+            <gridItemH16-15>0.3229</gridItemH16-15>
+            <gridItemH1-1>0.3444</gridItemH1-1>
+            <gridItemH5-3>0.2067</gridItemH5-3>
+            <gridItemH30-17>0.1952</gridItemH30-17>
+            <gridItemH14-9>0.2214</gridItemH14-9>
+            <gridItemSpacing>0 0.000926</gridItemSpacing>
+
+            <grid5ItemW>0.1192</grid5ItemW>
+            <grid5ItemH4-3>0.1938</grid5ItemH4-3>
+            <grid5ItemH16-9>0.1453</grid5ItemH16-9>
+            <grid5ItemH3-2>0.1722</grid5ItemH3-2>
+            <grid5ItemH10-9>0.2325</grid5ItemH10-9>
+            <grid5ItemH10-7>0.1808</grid5ItemH10-7>
+            <grid5ItemH8-7>0.2260</grid5ItemH8-7>
+            <grid5ItemH20-19>0.2454</grid5ItemH20-19>
+            <grid5ItemH16-15>0.2422</grid5ItemH16-15>
+            <grid5ItemH1-1>0.2583</grid5ItemH1-1>
+            <grid5ItemH5-3>0.1550</grid5ItemH5-3>
+            <grid5ItemH30-17>0.1464</grid5ItemH30-17>
+            <grid5ItemH14-9>0.1661</grid5ItemH14-9>
+
+        </variables>
+
+    </aspectRatio>
+
 </theme>
