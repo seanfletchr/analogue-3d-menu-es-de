@@ -16,7 +16,7 @@
         <systemColorPalette4>CBCBCB</systemColorPalette4>
         <systemCartSize>112-67</systemCartSize>
         <gameCarouselDefaultImage>./system/media/mastersystem.png</gameCarouselDefaultImage>
-        <systemCarouselDefaultImage>./system/console-isometric/default-console.png</systemCarouselDefaultImage>
+        <systemCarouselDefaultImage>./system/console-isometric/mastersystem.png</systemCarouselDefaultImage>
         <gameSystemLabelVisible>false</gameSystemLabelVisible>
         <gridImageInterpolation>nearest</gridImageInterpolation>
     </variables>
