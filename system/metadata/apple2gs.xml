@@ -1,6 +1,6 @@
 <theme>
     <variables>
-        <systemName>Apple IIgs</systemName>
+        <systemName>Apple IIGS</systemName>
         <systemDescription>The Apple IIGS is a personal computer released by Apple Computer on September 15, 1986 that's compatible with the Apple II series, but otherwise has capabilities comparable to the Atari ST, Commodore Amiga, and Macintosh. The "GS" in the name stands for "Graphics" and "Sound," referring to its enhanced multimedia hardware, especially its state of the art sound and music synthesis. The machine is a radical departure from any previous Apple II, with its 16-bit processor, direct access to megabytes of RAM, and mouse. It's the first computer produced by Apple to use a color graphical user interface (color was introduced on the Macintosh II six months later) and Apple Desktop Bus interface for keyboards, mice, and other input devices. It is the first personal computer to come with a built-in wavetable synthesis chip, utilizing technology from Ensoniq.</systemDescription>
         <systemManufacturer>Apple Computer, Inc.</systemManufacturer>
         <systemReleaseYear>1986</systemReleaseYear>
@@ -28,7 +28,7 @@
     </language>
     <language name="bs_BA">
         <variables>
-            <systemDescription>Apple Iigs je lični računar koji je Apple Computer objavio 15. septembra 1986. godine koji je kompatibilan sa serijama Apple II, ali u protivnom su mogućnosti uporedive sa Atarim Amigom i Macintosh-om."GS" u ime predstavlja "grafiku" i "zvuk", pozivajući se na svoj poboljšani multimedijalni hardver, posebno njegovo stanje umjetničke zvučne i muzičke sinteze. Mašina je radikalni odlazak iz bilo koje prethodne Apple II, sa svojim 16-bitnim procesorom, direktnim pristupom megabajtama RAM-a i miša. To je prvi računar proizveden od strane Applea za korištenje grafičkog korisničkog sučelja u boji (boja je uvedena na Macintosh II šest mjeseci kasnije) i Apple Desktop Autobusno sučelje za klavijature, miševe i druge ulazne uređaje. To je prvi lični računar koji dolazi sa ugrađenim čipom sinteze sinteze, koristeći tehnologiju iz endonija.</systemDescription>
+            <systemDescription>Apple IIGS je lični računar koji je Apple Computer objavio 15. septembra 1986. godine koji je kompatibilan sa serijama Apple II, ali u protivnom su mogućnosti uporedive sa Atarim Amigom i Macintosh-om."GS" u ime predstavlja "grafiku" i "zvuk", pozivajući se na svoj poboljšani multimedijalni hardver, posebno njegovo stanje umjetničke zvučne i muzičke sinteze. Mašina je radikalni odlazak iz bilo koje prethodne Apple II, sa svojim 16-bitnim procesorom, direktnim pristupom megabajtama RAM-a i miša. To je prvi računar proizveden od strane Applea za korištenje grafičkog korisničkog sučelja u boji (boja je uvedena na Macintosh II šest mjeseci kasnije) i Apple Desktop Autobusno sučelje za klavijature, miševe i druge ulazne uređaje. To je prvi lični računar koji dolazi sa ugrađenim čipom sinteze sinteze, koristeći tehnologiju iz endonija.</systemDescription>
             <systemHardwareType>Računar</systemHardwareType>
         </variables>
     </language>
