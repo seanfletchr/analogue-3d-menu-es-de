@@ -28,7 +28,7 @@ fonts. Several latin glyphs have been modified specifically for this theme. The 
 
 - **[agg23](https://github.com/agg23/fpga-gameandwatch/tree/master):** Nintendo Pokémon Mini, Nintendo Game and Watch (LCD Games).
 
-- **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road (Android Games), Folder, Apple TV Remote (Kodi), Arduboy, Panic Playdate, Pico-8, HTC Dream (Android), Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Valve Steam Deck, Valve Steam Machine, Sony Playstation 2, Sony Platstation 3, Sony Playstation Vita, Sony Playstation 4, Microsoft Xbox, Microsoft Xbox 360, Microsoft Xbox One, 8bitdo Arcade Stick (Various Arcade systems), Palm Pilot, Tiger Game.com.
+- **Sean Fletcher**: Library, Last Played, Favorites, Completed, Collections, Crossy Road (Android Games), Folder, Apple TV Remote (Kodi), Arduboy, Panic Playdate, Pico-8, HTC Dream (Android), Nintendo 64 Disk Drive, Nintendo Gamecube, Nintendo Wii, Nintendo 3DS, Nintendo Wii U, Nintendo Switch Lite, Sega Dreamcast, Valve Steam Deck, Valve Steam Machine, Sony Playstation 2, Sony Platstation 3, Sony Playstation Vita, Sony Playstation 4, Microsoft Xbox, Microsoft Xbox 360, Microsoft Xbox One, 8bitdo Arcade Stick (Various Arcade systems), Palm Pilot, Tiger Game.com, Uzebox, Othello Multivision, VTech V.Smile, LowRes NX, Coleco Adam, Atari XE, Vicron 32, Generic Nokia Phone (J2ME).
 
 System images created by Sean Fletcher may be downsampled to 150x82 for their original dimensions, and used freely.
 
